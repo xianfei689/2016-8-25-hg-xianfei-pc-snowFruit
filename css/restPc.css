@@ -43,6 +43,9 @@ a,label {
     color: #757575;
     text-decoration: none;
 }
+i,cite, em, var, address, dfn{
+        font-style: normal;
+}
 ul li {
         list-style: none;
 }
@@ -63,8 +66,5 @@ ul li {
     float: left;
 }
 
-.goods{
-    float: left;
-}
 
 
