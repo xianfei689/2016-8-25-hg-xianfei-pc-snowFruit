@@ -1,0 +1,70 @@
+/**
+ *@date: 2016-10-31T09:11:57+0800;
+ *@desc:rest css;
+ */
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+optgroup,
+p,
+blockquote,
+figure,
+hr,
+menu,
+dir,
+thead,
+tbody,
+tfoot,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+html {
+        font-size: 16px;
+        font-family:"Microsoft YaHei";
+}
+a,label {
+    cursor: pointer;
+    color: #757575;
+    text-decoration: none;
+}
+ul li {
+        list-style: none;
+}
+.fn_none{
+    display: none;
+}
+.fn_unvis{
+    visibility: hidden;
+}
+.fn_show{
+    display: block;
+    visibility: visible;
+}
+.fn_right{
+    float: right;
+}
+.fn_left{
+    float: left;
+}
+
+.goods{
+    float: left;
+}
+
+

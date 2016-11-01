@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>雪山鲜果</title>
+    <link rel="stylesheet" type="text/css" href="css/restPc.css">
+    <link rel="stylesheet" type="text/css" href="css/snowFruit.css"></head>
+    <style type="text/css"></style>
+<body>
+    <div class="head1">
+        <div class="sf-mid-cont">
+            <div class="head1_leftct" style="display: none">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+            </div>
+            <span class="head1rct1_login ">
+                <span id="name" class="hd_name">admin</span>
+                <a href="#">退出</a>
+            </span>
+            <span class="head1rct3">
+                <a class="message">消息</a>
+            </span>
+            <div class="head1_rightct">
+                <a href="">我的订单</a>
+                <span>|</span>
+                <a href="">卖家中心</a>
+                <span>|</span>
+                <a href="">收藏夹</a>
+                <span>|</span>
+                <a href="">网站导航</a>
+            </div>
+        </div>
+    </div>
+    <div class="head2">
+        <div class="sf-mid-cont">
+            <div class="head2ct1">
+                <img src="img/snow.png" ></div>
+            <div class="head2ct2 " style="display: none">
+                <img src="img/milk.png" ></div>
+            <div class="search head2ct3">
+                <form action="" id="searchForm" name="query"  >
+                    <input type="text" placeholder="请输入商品名称搜索" id="keyword" name="keyword" onkeydown="javascript:if(event.keyCode==13) search_keys('searchForm');" autocomplete="off">
+                    <a class="h2serach">搜索</a>
+                    <br/>
+                    <div id="hot_search">
+                        <span class="hs1">热门搜索：</span>
+                        <a>牛奶</a>
+                        <span>|</span>
+                        <a>核桃</a>
+                        <span>|</span>
+                        <a>冬虫夏草</a>
+                    </div>
+                </form>
+            </div>
+            <div class="head2ct4">
+                <span id="shoppingCar">
+                    <a id="num">9</a>
+                </span>
+                <span class="total">
+                    ¥
+                    <a id="totalMoney">1950.00</a>
+                    ∨
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="head3">
+        <div class="sf-mid-cont">
+            <span class="h3ct1">所有商品分类</span>
+            <span class="h3ct2 active">首页</span>
+            <span class="h3ct3">鲜果预定</span>
+            <span class="h3ct4">自营礼品</span>
+            <span class="h3ct5">活动专区</span>
+            <span class="h3ct6">商铺</span>
+        </div>
+    </div>
+    <div class="content1">
+        <div class="sf-mid-cont">
+            <div class="shopSort">
+                <div class="shopct shopct1">
+                    <p>雪山鲜果</p>
+                    <p>
+                        <span>阿克苏苹果</span>
+                        <span>库尔勒香梨</span>
+                        <span>哈密瓜</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct2">
+                    <p>新疆干果</p>
+                    <p>
+                        <span>新疆巴旦木</span>
+                        <span>和田大枣</span>
+                        <span>纸皮核桃</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct3">
+                    <p>西域常饮</p>
+                    <p>
+                        <span>石榴酒</span>
+                        <span>恰玛古</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct4">
+                    <p>肉禽蛋奶</p>
+                    <p>
+                        <span>柯坪羊肉</span>
+                        <span>牛腱肉</span>
+                        <span>青海老酸奶</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct5">
+                    <p>特色小吃</p>
+                    <p>
+                        <span>甘南牦牛肉干</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct6">
+                    <p>健康养生</p>
+                    <p>
+                        <span>帕米尔玛咖</span>
+                        <span>昆仑雪菊</span>
+                        <span>苦水玫瑰</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct7">
+                    <p>粮油干货</p>
+                    <p>
+                        <span>兰州百合干</span>
+                        <span>吐鲁番葡萄干</span>
+                    </p>
+                </div>
+                <br/>
+                <div class="shopct shopct8">
+                    <p>工艺饰品</p>
+                    <p>
+                        <span>酒泉夜光杯</span>
+                        <span>艾德莱斯</span>
+                        <span>庆阳皮影</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head4">
+        <img src="img/back1.png" id="carouselImg"></div>
+    <div class="head5">
+        <ul>
+            <li class="circle" style="background:#54F254"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+        </ul>
+    </div>
+    <div class="main1">
+        <div class="sf-mid-cont">
+            <img src="img/sp1.png" alt="">
+            <img src="img/sp2.png" alt="">
+            <img src="img/sp3.png" alt="">
+            <img src="img/sp4.png" alt="">
+            <img src="img/sp5.png" alt=""></div>
+    </div>
+    <div class="main2">
+        <div class="sf-mid-cont">
+            <img src="img/line.png" alt="" >
+            <img src="img/word1.png" class="lineword" alt="">
+            <img src="img/line.png" alt="" class=""></div>
+    </div>
+    <div class="main3">
+
+        <div class="sf-mid-cont">
+            <div class="poab">
+                <img src="img/left.png" alt=""  class="icon3 icon_left"></div>
+            <div class="hotgoods">
+                <div class="goods  fn_left">
+                    <div class="pimg">
+                        <img src="img/hot1.png"></div>
+                    <div class="title3">
+                        <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                    </div>
+                    <div class="price3"> <b class="font_red1">￥59</b> <del  class="font_del1">¥280.00</del>
+                    </div>
+                </div>
+                <div class="goods  fn_left">
+                    <div class="pimg">
+                        <img src="img/hot2.png"></div>
+                    <div class="title3">
+                        <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                    </div>
+                    <div class="price3"> <b class="font_red1">￥59</b> <del class="font_del1">¥280.00</del>
+                    </div>
+                </div>
+                <div class="goods  fn_left">
+                    <div class="pimg">
+                        <img src="img/hot3.png"></div>
+                    <div class="title3">
+                        <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                    </div>
+                    <div class="price3">
+                        <b class="font_red1">￥59</b>
+                        <del class="font_del1">¥280.00</del>
+                    </div>
+                </div>
+                <div class="goods  fn_left">
+                    <div class="pimg">
+                        <img src="img/hot4.png"></div>
+                    <div class="title3">
+                        <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                    </div>
+                    <div class="price3">
+                        <b class="font_red1">￥59</b>
+                        <del class="font_del1">¥280.00</del>
+                    </div>
+                </div>
+                <div class="goods  fn_left">
+                    <div class="pimg">
+                        <img src="img/hot5.png"></div>
+                    <div class="title3">
+                        <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                    </div>
+                    <div class="price3">
+                        <b class="font_red1">￥59</b>
+                        <del class="font_del1">¥280.00</del>
+                    </div>
+                </div>
+            </div>
+            <div class="poab">
+                <img src="img/right.png" alt="" class=" icon3 icon_right"></div>
+        </div>
+    </div>
+    <div class="main4">
+        <div class="sf-mid-cont">
+            <img src="img/bg2.png"></div>
+    </div>
+    <div class="floor1">
+        <div class="sf-mid-cont">
+            <div class="f1_floor">
+                <div>
+                    <span class="bg_green">雪山果园</span>
+                    <span>2F</span>
+                    <span>3F</span>
+                    <span>4F</span>
+                    <span>5F</span>
+                </div>
+            </div>
+            <div class="f1ct  fct">
+                <div class="f1head">
+                    <span class="f1sp active f1sp1">特惠专区</span>
+                    <span class="f1sp">有机蔬菜</span>
+                    <span class="f1sp">国产水果</span>
+                    <span class="f1sp">进口水果</span>
+                </div>
+                <div class="f1cont1">
+                    <img src="img/f1img1.png" alt="" class="f1ct1"></div>
+                <div class="f1cont2">
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img2.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img3.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img4.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img5.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img6.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img7.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1cont3">
+                        <div class="f1ct3_ct1">
+                            <span class=" active">火龙果</span>
+                            <span class="">猕猴桃</span>
+                            <span class="">水蜜桃</span>
+                            <span class="">蓝莓</span>
+                            <span class="">葡萄</span>
+                            <span class="">牛油果</span>
+                        </div>
+                        <div class="f1ct3_ct2">
+                                   进口新鲜水果
+                        </div>
+                        <div class="f1ct3_ct3">
+                                <img src="img/f1img9.png" alt="" class="f1ct3_img">
+                                <img src="img/f1img8.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="floor1">
+        <div class="sf-mid-cont">
+            <div class="f1ct  fct">
+                <div class="f1head  f2head">
+                    <span class="f1sp active f1sp1">特惠专区</span>
+                    <span class="f1sp">有机蔬菜</span>
+                    <span class="f1sp">国产水果</span>
+                    <span class="f1sp">进口水果</span>
+                </div>
+                <div class="f1cont1">
+                    <img src="img/f2img1.png" alt="" class="f1ct1"></div>
+                <div class="f1cont2">
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img2.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img3.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img4.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img5.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img6.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img7.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1cont3">
+                        <div class="f1ct3_ct1">
+                            <span class=" active">火龙果</span>
+                            <span class="">猕猴桃</span>
+                            <span class="">水蜜桃</span>
+                            <span class="">蓝莓</span>
+                            <span class="">葡萄</span>
+                            <span class="">牛油果</span>
+                        </div>
+                        <div class="f1ct3_ct2">
+                                   进口新鲜水果
+                        </div>
+                        <div class="f1ct3_ct3">
+                                <img src="img/f1img9.png" alt="" class="f1ct3_img">
+                                <img src="img/f1img8.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="floor1">
+        <div class="sf-mid-cont">
+            <div class="f1_floor">
+                <div>
+                    <span class="bg_green">雪山果园</span>
+                    <span>2F</span>
+                    <span>3F</span>
+                    <span>4F</span>
+                    <span>5F</span>
+                </div>
+            </div>
+            <div class="f1ct  fct">
+                <div class="f1head f3head">
+                    <span class="f1sp active f1sp1">特惠专区</span>
+                    <span class="f1sp">有机蔬菜</span>
+                    <span class="f1sp">国产水果</span>
+                    <span class="f1sp">进口水果</span>
+                </div>
+                <div class="f1cont1">
+                    <img src="img/f3img1.png" alt="" class="f1ct1"></div>
+                <div class="f1cont2">
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img2.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img3.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img4.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img5.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img6.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img7.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1cont3">
+                        <div class="f1ct3_ct1">
+                            <span class=" active">火龙果</span>
+                            <span class="">猕猴桃</span>
+                            <span class="">水蜜桃</span>
+                            <span class="">蓝莓</span>
+                            <span class="">葡萄</span>
+                            <span class="">牛油果</span>
+                        </div>
+                        <div class="f1ct3_ct2">
+                                   进口新鲜水果
+                        </div>
+                        <div class="f1ct3_ct3">
+                                <img src="img/f1img9.png" alt="" class="f1ct3_img">
+                                <img src="img/f1img8.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="floor1">
+        <div class="sf-mid-cont">
+            <div class="f1_floor">
+                <div>
+                    <span class="bg_green">雪山果园</span>
+                    <span>2F</span>
+                    <span>3F</span>
+                    <span>4F</span>
+                    <span>5F</span>
+                </div>
+            </div>
+            <div class="f1ct  fct">
+                <div class="f1head f4head">
+                    <span class="f1sp active f1sp1">特惠专区</span>
+                    <span class="f1sp">有机蔬菜</span>
+                    <span class="f1sp">国产水果</span>
+                    <span class="f1sp">进口水果</span>
+                </div>
+                <div class="f1cont1">
+                    <img src="img/f4img1.png" alt="" class="f1ct1"></div>
+                <div class="f1cont2">
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img2.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img3.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img4.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img5.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img6.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img7.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1cont3">
+                        <div class="f1ct3_ct1">
+                            <span class=" active">火龙果</span>
+                            <span class="">猕猴桃</span>
+                            <span class="">水蜜桃</span>
+                            <span class="">蓝莓</span>
+                            <span class="">葡萄</span>
+                            <span class="">牛油果</span>
+                        </div>
+                        <div class="f1ct3_ct2">
+                                   进口新鲜水果
+                        </div>
+                        <div class="f1ct3_ct3">
+                                <img src="img/f1img9.png" alt="" class="f1ct3_img">
+                                <img src="img/f1img8.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="floor1 floor5">
+        <div class="sf-mid-cont">
+            <div class="f1_floor">
+                <div>
+                    <span class="bg_green">雪山果园</span>
+                    <span>2F</span>
+                    <span>3F</span>
+                    <span>4F</span>
+                    <span>5F</span>
+                </div>
+            </div>
+            <div class="f1ct  fct">
+                <div class="f1head f5head">
+                    <span class="f1sp active f1sp1">特惠专区</span>
+                    <span class="f1sp">有机蔬菜</span>
+                    <span class="f1sp">国产水果</span>
+                    <span class="f1sp">进口水果</span>
+                </div>
+                <div class="f1cont1">
+                    <img src="img/f5img1.png" alt="" class="f1ct1"></div>
+                <div class="f1cont2">
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img2.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img3.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img4.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img5.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img6.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                    <div class="goods fn_left">
+                        <div class="gimg">
+                            <img src="img/f1img7.png"></div>
+                        <div class="f1title">
+                            <a href="#" class="font_desc1">三只松鼠 坚果炒货 零食奶油味夏威夷果265g/袋</a>
+                        </div>
+                        <div class="f1price">
+                            <b class="font_red2">￥59</b>
+                            <del class="font_del2">¥280.00</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="f1cont3">
+                        <div class="f1ct3_ct1">
+                            <span class=" active">火龙果</span>
+                            <span class="">猕猴桃</span>
+                            <span class="">水蜜桃</span>
+                            <span class="">蓝莓</span>
+                            <span class="">葡萄</span>
+                            <span class="">牛油果</span>
+                        </div>
+                        <div class="f1ct3_ct2">
+                                   进口新鲜水果
+                        </div>
+                        <div class="f1ct3_ct3">
+                                <img src="img/f1img9.png" alt="" class="f1ct3_img">
+                                <img src="img/f1img8.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom1">
+       <div class="sf-mid-cont">
+                <div class="bt1_ct">
+                        <img src="img/bt1.png" alt="">
+                        <img src="img/bt2.png" alt="">
+                        <img src="img/bt3.png" alt="">
+                        <img src="img/bt4.png" alt="">
+                </div>
+                <img src="img/bt_line1.png" alt="" class="bt_line1">
+                <div class="bt1_ct1  ">
+
+                </div>
+
+       </div>
+    </div>
+    <div class="bottom2">
+                <img src="img/bt_line2.png" alt="">
+                <p class="p1">Copyright © 2014 hg365.com All Rights Reserved 浙江汇购科技股份有限公司 版权所</p>
+                <p class="p1">浙ICP备案号：浙B2-20090284-1</p>
+    </div>
+</body>
+    <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
+    <script src="lib/Rose/1.0.0/Rose.src.js"></script>
+    <script type="text/javascript" src="js/snowFruit.js"></script>
+    <script type="text/javascript"></script>
+</html>
