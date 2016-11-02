@@ -240,15 +240,15 @@
         <div class="sf-mid-cont">
             <img src="img/bg2.png"></div>
     </div>
-    <div class="floor1">
+    <div class="floor1" id="floor1">
         <div class="sf-mid-cont">
              <div class="f1_floor">
                 <div>
-                    <span class="bg_green"  onclick="javascript:ScrollWin.scrollTo(100,300); return false;">雪山果园</span>
-                    <span>2F</span>
-                    <span>3F</span>
-                    <span>4F</span>
-                    <span>5F</span>
+                    <span class="bg_green"  onclick="javascript:$('#floor1').ScrollTo(800);return false;">雪山果园</span>
+                    <span onclick="javascript:$('#floor2').ScrollTo(800);return false;">2F</span>
+                    <span onclick="javascript:$('#floor3').ScrollTo(800);return false;">3F</span>
+                    <span onclick="javascript:$('#floor4').ScrollTo(800);return false;">4F</span>
+                    <span onclick="javascript:$('#floor5').ScrollTo(800);return false;">5F</span>
                 </div>
             </div>
             <div class="f1ct  fct">
@@ -347,7 +347,7 @@
         </div>
     </div>
 
-    <div class="floor1">
+    <div class="floor1" id="floor2">
         <div class="sf-mid-cont">
             <div class="f1ct  fct">
                 <div class="f1head  f2head">
@@ -445,7 +445,7 @@
         </div>
     </div>
 
-    <div class="floor1">
+    <div class="floor1" id="floor3">
         <div class="sf-mid-cont">
 
             <div class="f1ct  fct">
@@ -545,7 +545,7 @@
     </div>
 
     <div class="floor1">
-        <div class="sf-mid-cont">
+        <div class="sf-mid-cont" id="floor4">
 
             <div class="f1ct  fct">
                 <div class="f1head f4head">
@@ -644,7 +644,7 @@
     </div>
 
     <div class="floor1 floor5">
-        <div class="sf-mid-cont">
+        <div class="sf-mid-cont" id="floor5">
 
             <div class="f1ct  fct">
                 <div class="f1head f5head">
@@ -855,6 +855,7 @@
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="jquery.scrollto.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script type="text/javascript" src="js/snowFruit.js"></script>
     <script type="text/javascript"></script>
