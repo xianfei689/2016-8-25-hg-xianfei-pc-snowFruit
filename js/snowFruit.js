@@ -118,7 +118,7 @@ myAnimate.snowFruitLogin.sortChange = function() {
          $(this).unbind().bind("click mouseover",function(){
                     $(this).find(".shoptct1_right").fadeIn(300);
          }).bind("click mouseleave",function(){
-                      $(this).find(".shoptct1_right").fadeOut(300);
+                     $(this).find(".shoptct1_right").fadeOut(300);
            })
     })
 
