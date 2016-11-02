@@ -257,6 +257,8 @@
     height: 515px;
     width: 270px;
     background-color: #fff;
+    position: relative;
+    z-index: 1000;
 }
 .shopct1 div{
     display: inline-block;
@@ -727,9 +729,22 @@ i{
 }
 .st_ct   .st_t1{
     border-bottom: 1px  dashed #999999;
+    color: #000;
 }
 .sortRight   .st_ct2{
     width: 536px;
     text-align: center;
     margin-top: 58px;
+}
+
+.shopct .shoptct1_right{
+    position: absolute;
+    left:274px;
+    top: 20px;
+    width: 536px;
+    height: 491px;
+    background-color: #fff;
+    border: 1px solid #3BCE6C;
+    overflow: hidden;
+    display: none;
 }

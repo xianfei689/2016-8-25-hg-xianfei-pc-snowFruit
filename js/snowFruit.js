@@ -107,7 +107,7 @@ myAnimate.snowFruitLogin.sliderEffect = function() {
  * @Author                                                                   Copyright    xianfei
  * @Title                               ######
  * @DateTime                                     2016-11-02T15:59:01+0800
- * @description          sortshopping  展示效果js
+ * @description          sortshopping  展示效果
  *
  * ##############################################
  * @return      {[type]} [description]
@@ -116,10 +116,9 @@ myAnimate.snowFruitLogin.sortChange = function() {
     $(".content1").find(".shopct").each(function(index, elem) {
 
          $(this).unbind().bind("click mouseover",function(){
-               $(".content1").find(".sortRight").hide();
-                    $(".content1").find(".sortRight").eq(index).css("display", "inline-block");
+                    $(this).find(".shoptct1_right").fadeIn(300);
          }).bind("click mouseleave",function(){
-                      $(".content1").find(".sortRight").hide();
+                      $(this).find(".shoptct1_right").fadeOut(300);
            })
     })
 
