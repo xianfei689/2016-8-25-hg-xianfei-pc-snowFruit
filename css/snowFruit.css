@@ -207,6 +207,7 @@
 .head4 {
     width: 100%;
     height: 482px;
+    overflow: hidden;
 }
 .head5 {
     text-align: center;
@@ -536,6 +537,7 @@
 .bottom2 {
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 .p1 {
     color: #757575;
@@ -616,4 +618,7 @@
 }
 .fix_right  .fix:hover {
     background-color: #EAFCF0;
+}
+.h3ct{
+    cursor: pointer;
 }
