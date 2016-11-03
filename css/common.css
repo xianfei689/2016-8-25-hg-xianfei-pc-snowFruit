@@ -287,6 +287,36 @@
     font-size: 14px;
     color: #454545;
 }
+.font_fix {
+    color: #4d4d4d;
+    font-size: 10px;
+}
+.fix_right {
+    width: 64px;
+    position: fixed;
+    top: 24%;
+    right: 0;
+    height: 443px;
+    background-color: #fff;
+    text-align: center;
+}
+.fix_right  .fix {
+    background-color: #F2F2F2;
+    margin-bottom: 3px;
+    cursor:pointer;
+}
+.fix_right  .font_fix {
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+.fix_right  img {
+    margin-bottom: 10px;
+}
+.fix_right  .fix:hover {
+    background-color: #EAFCF0;
+}
+
+
 i{
     font-size: 12px;
     color: #454545;
@@ -327,3 +357,4 @@ i{
 .font_weight{
     font-weight: bold;
 }
+
