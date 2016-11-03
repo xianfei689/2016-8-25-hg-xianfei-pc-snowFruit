@@ -306,6 +306,7 @@
 {
     margin-top: 50px;
     margin-right: 35px;
+    cursor: pointer;
 }
 .bottom1 .bt_line1
 {
@@ -366,10 +367,14 @@
 .bt1_v .font_del2
 {
     line-height: 20px;
+    cursor: pointer;
 }
 .bt1_v  .font_desc
 {
     line-height: 44px;
+}
+.bt1_ct2  .font_desc2{
+    cursor: pointer;
 }
 .bt1_v2
 {
