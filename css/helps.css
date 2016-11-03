@@ -3,72 +3,96 @@
  *@see: 帮助中心css
  */
 
-.cont1{
-      width: 100%;
-      height: 130px;
-      background-image: url(../img/helps/bg1.png);
-      background-repeat: no-repeat;
-      text-align: center;
+.cont1
+{
+    width: 100%;
+    height: 130px;
+
+    text-align: center;
+
+    background-image: url(../img/helps/bg1.png);
+    background-repeat: no-repeat;
 }
-.cont1 img{
+.cont1 img
+{
     display: inline-block;
-        margin-top: 20px;
+
+    margin-top: 20px;
 }
-.cont2{
+.cont2
+{
     width: 100%;
     height: 942px;
     margin-top: 30px;
 }
-.cont2 .ct2_left{
+.cont2 .ct2_left
+{
+    overflow: hidden;
+
     width: 186px;
     height: 942px;
     margin-right: 15px;
+
     text-align: center;
-    overflow: hidden;
 }
-.cont2 .ct2_right{
+.cont2 .ct2_right
+{
+    overflow: hidden;
+
     width: 992px;
     height: 942px;
-    border: 1px solid #DEDEDE;
-    overflow: hidden;
+
+    border: 1px solid #dedede;
 }
-.ct2_left  .font_desc{
-    background-image: url(../img/helps/bg3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.ct2_left  .font_desc
+{
     padding-top: 8px;
     padding-bottom: 11px;
 
+    background-image: url(../img/helps/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.ct2_left  .font_del3{
-        border-bottom: 1px dotted  #DEDEDE;
-        margin-right: 28px;
-        margin-left: 28px;
-        margin-top: 15px;
-        padding-bottom: 14px;
-           cursor: pointer;
+.ct2_left  .font_del3
+{
+    margin-top: 15px;
+    margin-right: 28px;
+    margin-left: 28px;
+    padding-bottom: 14px;
+
+    cursor: pointer;
+
+    border-bottom: 1px dotted  #dedede;
 }
-.ct2_right  .ct2_titile{
+.ct2_right  .ct2_titile
+{
     width: 992px;
     height: 35px;
+    padding-top: 10px;
+    padding-left: 22px;
+
     background-image: url(../img/helps/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
-        padding-left: 22px;
-    padding-top: 10px;
-
 }
-.ct2_ct p{
-    padding: 41px  30px;
-    text-indent: 2em;
+.ct2_ct p
+{
     line-height: 20px;
     line-height: 30px;
+
+    padding: 41px  30px;
+
+    text-indent: 2em;
 }
-.ct2_left .active{
-  color: #33CC66;
+.ct2_left .active
+{
+    color: #3c6;
 }
 
-.ct2_right a,.ct2_right i{
+.ct2_right a,
+.ct2_right i
+{
     font-size: 14px;
+
     color: #454545;
 }
