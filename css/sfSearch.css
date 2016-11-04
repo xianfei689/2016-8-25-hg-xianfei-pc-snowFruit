@@ -111,8 +111,6 @@
 {
     margin-top: 4px;
 }
-
-
 .ct1_h2 .price_right
 {
     float: right;
@@ -155,8 +153,9 @@
 
     display: inline-block;
 
-    width: 102px;
+    width: 105px;
     height: 34px;
+    margin-left: -3px;
 
     text-align: center;
 
@@ -207,7 +206,6 @@ li
     margin-top: 4px;
     margin-bottom: 4px;
 }
-
 .cont4  .sf-mid-cont
 {
     line-height: 44px;
@@ -220,43 +218,29 @@ li
     background-size: cover;
 }
 
-
-
-.cont5  ul
+.cont3
 {
-    margin-left: -3px;
-}
-
-
-.cont5 li
-{
-    width: 240px;
-    height: 338px;
-    margin-left: -6px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 
     text-align: center;
+}
+.cont3  a
+{
+    display: inline-block;
 
-    border: 1px solid #dedede;
-    border-right: none;
+    border: 1px solid #a9a9a9;
 }
-.cont5
+.cont3  .c3_change
 {
-    margin-top: 20px;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
 }
-.cont5  ul:last-child
-{
-    border-right: 1px solid #dedede;
-}
-.cont5 .gimg
-{
-    overflow: hidden;
-
-    width: 210px;
-    height: 190px;
-}
-.cont5 .f1title
-{
-    width: 182px;
-    margin-top: 23px;
-    margin-bottom: 14px;
+.cont3  .c3_num{
+        height: 28px;
+        width: 28px;
+        text-align: center;
+        line-height: 28px;
 }

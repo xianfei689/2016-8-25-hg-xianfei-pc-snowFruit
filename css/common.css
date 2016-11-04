@@ -508,3 +508,64 @@ i
 {
     font-weight: bold;
 }
+
+.cont4 .sf-mid-cont {
+    line-height: 44px;
+    height: 44px;
+      text-indent: 20px;
+    background-image: url(../img/search/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont5  ul
+{
+}
+.cont5 li
+{
+    width: 238px;
+    height: 338px;
+
+    text-align: center;
+
+    border: 1px solid #dedede;
+}
+.cont5 li:nth-child(5n+2){
+        margin-left: -5px;
+        border-left:  none;
+}
+.cont5 li:nth-child(5n+3){
+        margin-left: -5px;
+          border-left:  none;
+}
+.cont5 li:nth-child(5n+4){
+        margin-left: -5px;
+          border-left:  none;
+}
+.cont5 li:nth-child(5n){
+        margin-left: -5px;
+          border-left:  none;
+}
+.cont5
+{
+    margin-top: 20px;
+}
+.cont5 .gimg
+{
+    overflow: hidden;
+
+    width: 210px;
+    height: 190px;
+}
+.cont5 .f1title
+{
+    width: 182px;
+    margin-top: 23px;
+    margin-bottom: 14px;
+}
+li{
+    display: inline-block;
+}
+.head3 span{
+    cursor: pointer;
+}
