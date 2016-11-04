@@ -1,0 +1,115 @@
+/**
+ * @DateTime            2016-11-04T13:23:42+0800
+ *
+ * @see:购物车  main  css;
+ */
+.cont2 ul
+{
+    line-height: 88px;
+}
+.cont2 li:last-child
+{
+    float: right;
+}
+.cont2  .img1:after
+{
+    display: inline-block;
+
+    content: '购物车';
+    text-indent: 33px;
+}
+.cont2  .img1 img
+{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.cont2  .img2:after
+{
+    content: '查看购物车';
+}
+.cont2  .img2:after
+{
+    content: '确认订单信息';
+}
+.cont2  .img4:after
+{
+    content: '确认支付';
+}
+.ct2_li2 .num
+{
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+
+.ct2_li2 .line
+{
+    margin-right: 14px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+
+
+.main1
+{
+    margin-bottom: 30px;
+}
+
+
+.main1 .m1_u1
+{
+    line-height: 38px;
+
+    width: 1200px;
+    height: 38px;
+
+    background-image: url(../img/shoppingCar/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main1 li
+{
+    text-align: center;
+}
+
+.main1 .m1_li1
+{
+    width: 123px;
+}
+
+.main1 .m1_li1 img
+{
+    position: relative;
+    top: 2px;
+    right: 10px;
+}
+.main1 .m1_li2
+{
+    width: 316px;
+}
+.main1 .m1_li3
+{
+    width: 297px;
+}
+.main1 .m1_li4
+{
+    width: 71px;
+}
+.main1 .m1_li5
+{
+    width: 286px;
+}
+.main1 .m1_li6
+{
+    position: relative;
+    left: -26px;
+
+    width: 38px;
+}
+
+.main1  .m1_u2 {
+        border:1px solid #DEDEDE;
+        height: 120px;
+        width: 1198px;
+}
