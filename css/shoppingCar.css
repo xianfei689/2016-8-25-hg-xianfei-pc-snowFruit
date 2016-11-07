@@ -53,14 +53,15 @@
 
 .main1
 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
 .main1 .m1_u1
 {
     line-height: 38px;
-
+   color: #757575;
+    font-size: 12px;
     width: 1200px;
     height: 38px;
 
@@ -71,6 +72,7 @@
 .main1 li
 {
     text-align: center;
+
 }
 
 .main1 .m1_li1
@@ -196,4 +198,54 @@
     position: relative;
     top: 5px;
 }
+.main2{
+    margin-bottom: 60px;
+}
+.main2 .sf-mid-cont{
+    box-sizing: border-box;
+    padding-top: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 147px;
+    background-color: #F8F8F8;
+}
+.main2   .m2_li2{
+        font-size: 14px;
+        float: right;
+        display: inline-block;margin-right: 13px;
+}
+.m2_ct1{
+    width: 100%;
 
+}
+.m2_u1{
+    border-bottom: 1px solid  #E3E3E3;
+    padding-bottom: 24px;
+}
+.m2_u2{
+    float: right;
+    margin-top: 25px;
+}
+.pay_input{
+    color: #fff;
+    background-color: #33CC66;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 37px;
+    line-height: 37px;
+    border-radius: 4px;
+    margin-left: 95px;
+
+}
+.m2_ct1 .m2_li1{
+        margin-right: 30px;
+}
+.m2_ct1 .m2_li1 img{
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+.m2_ct1 .select{
+    margin-right: 32px;
+}

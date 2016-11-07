@@ -471,7 +471,6 @@ i
 {
     font-family: 'SimHei';
     font-size: 36px;
-
     color: #757575;
 }
 .font_red1
@@ -503,6 +502,10 @@ i
     font-size: 14px;
 
     color: #999;
+}
+.font1{
+    color: #666;
+    font-size: 12px;
 }
 .font_weight
 {
