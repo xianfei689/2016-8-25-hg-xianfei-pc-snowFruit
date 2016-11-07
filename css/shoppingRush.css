@@ -1,0 +1,183 @@
+
+
+.cont1{
+    margin-bottom: 70px;
+}
+.cont1  .ct1_line1
+{
+    display: inline-block;
+
+    width: 1200px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.cont1  .ct1_line2
+{
+    width: 1200px;
+    height: 532px;
+    margin-bottom: 60px;
+}
+
+.cont1  .c1line2_left
+{
+    width: 580px;
+    height: 532px;
+
+}
+
+.cont1  .c1line2_right
+{
+    overflow: hidden;
+    float: right;
+    width: 575px;
+}
+.c1line2_right  ul
+{
+    width: 575px;
+    height: 159px;
+
+    background-image: url(../img/shoppingRush/rush.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1line2_right i
+{
+    font-size: 14px;
+
+    color: #fff;
+}
+.c1line2_right  .font_green i
+{
+    color: #9fffbf;
+}
+.c1line2_right   .c1l2_last
+{
+    float: right;
+
+    margin-top: 49px;
+    margin-right: 14px;
+}
+.c1line2_right   .font_white
+{
+    margin-top: 43px;
+    margin-right: 28px;
+    margin-left: 75px;
+}
+.c1line2_right   .font_white1
+{
+    position: relative;
+    bottom: 5px;
+}
+.c1line2_right .font_desc5
+{
+    margin-bottom: 65px;
+}
+
+.c1line2_right .time
+{
+    line-height: 199px;
+
+    width: 575px;
+    height: 157px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+    background-image: url(../img/shoppingRush/time.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1line2_right .time .sp1
+{
+    margin-left: 156px;
+}
+.c1line2_right .time .sp2
+{
+    margin-left: 73px;
+}
+.c1line2_right .time .sp3
+{
+    margin-left: 72px;
+}
+.c1line2_right .time .sp4
+{
+    margin-left: 72px;
+}
+.join_shoppingcar
+{
+    line-height: 40px;
+
+    display: inline-block;
+
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+
+    text-align: center;
+
+    border: 1px solid #3c6;
+    background-color: #defff1;
+}
+.c1line2_right  .count_num
+{
+    float: right;
+}
+.c1line2_right .love
+{
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+
+    border: 1px solid  #b5b5b5;
+}
+.c1line2_right .love img
+{
+    display: inline-block;
+
+    margin-top: 10px;
+}
+
+.cont1 .ct1_line4{
+    width: 1200px;
+    text-align: center;
+}
+.cont1 .ct1_line4 img{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.ct1_line3 {
+    width: 1200px;
+}
+.ct1_line3   span{
+    color: #33cc66;
+    font-size: 16px;
+    text-align: center;
+    border-right: 1px solid #33CC66;
+    border-left: 1px solid #33CC66;
+    border-top: 2px solid  #33CC66;
+    line-height: 50px;
+    width: 148px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.ct1_line3   img{
+    display: inline-block;
+    float: right;
+    width: 1046px;
+
+}
+
+#spec-n1{
+    width: 427px;
+    position: relative;
+
+}
+#spec-list{
+    width: 110px;
+}

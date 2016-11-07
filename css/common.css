@@ -401,12 +401,7 @@
 {
     margin: 2px 0 5px 9px;
 }
-.font_desc1
-{
-    font-size: 14px;
 
-    color: #454545;
-}
 .font_fix
 {
     font-size: 10px;
@@ -455,6 +450,12 @@ i
 
     color: #454545;
 }
+.font_desc1
+{
+    font-size: 14px;
+
+    color: #454545;
+}
 .font_desc2
 {
     font-size: 12px;
@@ -464,6 +465,16 @@ i
 .font_desc
 {
     font-size: 16px;
+
+    color: #454545;
+}
+.font_desc5{
+        font-size: 26px;
+
+    color: #454545;
+}
+.font_desc6{
+        font-size: 24px;
 
     color: #454545;
 }
@@ -571,4 +582,20 @@ li{
 }
 .head3 span{
     cursor: pointer;
+}
+.font_white{
+    color: #fff;
+    font-size: 50px;
+}
+.font_white1{
+    color: #fff;
+    font-size: 14px;
+}
+.font_green{
+    color: #9fffbf;
+    font-size: 14px;
+}
+.font_green{
+    color: #33cc66;
+    font-size: 16px;
 }
