@@ -455,3 +455,32 @@
     width: 174px;
     border-right: 1px solid #DEDEDE;
 }
+.goodsType .gli2{
+    margin-left: 40px;
+}
+.goodsType .gli3{
+margin-left: 66px;
+position: relative;
+bottom: 12px;
+}
+.goodsType .gli2 .red_sp{
+    width: 0;
+    height: 12px;
+    background-color: #FE7474;
+    display: inline-block;
+     margin-left: 5px;
+}
+.goodsType .gli2 .black_sp{
+    width: 150px;
+    height: 12px;
+    background-color: #DEDEDE;
+    display: inline-block;
+    margin-right: 9px;
+    position: relative;
+    left: -5px;
+}
+
+.gli3 .font_red2{
+    display: inline-block;
+    margin-top: 10px;
+}
