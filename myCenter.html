@@ -3,12 +3,10 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <title>雪山鲜果</title>
-    <link rel="stylesheet" type="text/css" href="lib/webui/1.0.0/pc/css/webui.min.css">
+    <title>个人中心</title>
     <link rel="stylesheet" type="text/css" href="css/restPc.css">
-    <link rel="stylesheet" type="text/css" href="css/common.css"></head>
-    <link rel="stylesheet" type="text/css" href="css/shoppingRush.css"></head>
-
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/myCenter.css">
     <style type="text/css"></style>
 <body>
     <div class="head1">
@@ -45,7 +43,7 @@
             <div class="search head2ct3">
                 <form action="" id="searchForm" name="query"  >
                     <input type="text" placeholder="请输入商品名称搜索" id="keyword" name="keyword" onkeydown="javascript:if(event.keyCode==13) search_keys('searchForm');" autocomplete="off">
-                    <a class="h2serach"  href="sfSearch.html">搜索</a>
+                    <a class="h2serach" href="sfSearch.html">搜索</a>
                     <br/>
                     <div id="hot_search">
                         <span class="hs1">热门搜索：</span>
@@ -58,7 +56,7 @@
                 </form>
             </div>
             <div class="head2ct4">
-                <span id="shoppingCar" onclick="window.location.href='shoppingCar.html'">
+                <span id="shoppingCar">
                     <a id="num">9</a>
                 </span>
                 <span class="total">
@@ -72,97 +70,137 @@
     <div class="head3">
         <div class="sf-mid-cont">
             <span class="h3ct h3ct1">所有商品分类</span>
-            <span class="h3ct h3ct2 active" onclick="window.location.href='snowFruitLogin.html'">首页</span>
+            <span class="h3ct h3ct2 " onclick="window.location.href='snowFruitLogin.html'">首页</span>
             <span class="h3ct h3ct3" onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
             <span class="h3ct h3ct4" onclick="window.location.href='propGift.html'">自营礼品</span>
             <span class="h3ct h3ct5" onclick="window.location.href='sfPrefecture.html'">活动专区</span>
-            <span class="h3ct h3ct6 " onclick="window.location.href='store.html'" >商铺</span>
+            <span class="h3ct h3ct6 active" onclick="window.location.href='store.html'" >商铺</span>
         </div>
     </div>
 
     <div class="cont1">
+        <div class="sf-mid-cont font_desc">
+            <a href="snowFruitLogin.html">首页</a>
+            &gt;
+            <a href="#">个人中心</a>
+            <a href=""></a>
+        </div>
+    </div>
+
+    <div class="cont2">
         <div class="sf-mid-cont">
-            <div class="ct1_line1">
-                <a href="snowFruitLogin.html" class="font_del3">首页</a>
-                <span>&gt;</span>
-                <a href="#" class="font_desc1">限时购</a>
+            <div class="ct2_left">
+                <p class="change  font_desc bottom_style"><span class="round  active"></span>我的主页</p>
+                <p class="font_desc ">  交易管理</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 我的订单</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 我的收藏</p>
+                <p class="change font_del3 mt_12 bottom_style"> <span class="round  "></span> 我的等级</p>
+
+                <p class="font_desc">  售后服务</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 退货管理</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 换货管理</p>
+                <p class="change font_del3 mt_12  bottom_style"> <span class="round  "></span> 退款管理</p>
+
+                <p class="font_desc">  资料管理</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 个人资料</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 员工认证</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 修改密码</p>
+                <p class="change font_del3 mt_12"> <span class="round  "></span> 收货地址</p>
+
             </div>
-            <div class="ct1_line2">
-                <div class="c1line2_left">
-
-                    <div id="spec-n1">
-                        <div class="o-img">
-                            <img alt="" src="img/shoppingRush/big1.png"  onerror="this.src='images/none_347.gif'"  />
-                        </div>
-                        <div class="switch">
-                            <a id="foward">&nbsp;</a>
-                            <a id="next">&nbsp;</a>
-                        </div>
-                    </div>
-
-                    <div id="spec-n5">
-                        <div id="spec-list">
-                            <ul  id="smList">
-                                <li class="curr">
-                                    <img  name="img/shoppingRush/big1.png"   src="img/shoppingRush/small1.png"/>
-                                </li>
-
-                                <li>
-                                    <img  name="img/shoppingRush/big2.png"   src="img/shoppingRush/small2.png"/>
-                                </li>
-
-                                <li>
-                                    <img  name="img/shoppingRush/big3.png"    src="img/shoppingRush/small3.png"/>
-                                </li>
-
-                                <li>
-                                    <img  name="img/shoppingRush/big4.png"   src="img/shoppingRush/small4.png"/>
-                                </li>
-
-                                <li>
-                                    <img  name="img/shoppingRush/big5.png"    src="img/shoppingRush/small5.png"/>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="c1line2_right">
-                    <p class="font_desc5 mb_65">凯特芒 海南芒果 新鲜水果</p>
+            <div class="ct2_right">
+                <div class="ct2_main1">
+                    <p>我的主页</p>
                     <ul>
-                        <li class="font_white">¥49.00</li>
-                        <li class="font_white1"> <i>折扣：</i> <i>1.7</i>
-                            <i>折</i>
-                            <br> <del class="font_green"><i>原价：¥</i>
-                                <i>75.00</i></del>
-
+                        <li class="li1">
+                            <img src="img/myCenter/head.png" alt=""></li>
+                        <li class="li2">
+                            <div class="div1">
+                                <span>
+                                    尊敬的 <b class="font_red2">czh123</b>
+                                    ，欢迎来到您的个人中心
+                                </span>
+                                <img src="img/myCenter/info.png" alt="" class="info">
+                                <span class="info1">消息</span>
+                            </div>
+                            <div class="div2">
+                                <span>您的会员等级：</span>
+                                <img src="img/myCenter/vip.png" alt="" >
+                                <span class="vip">白金会员</span> <b class="font_red2 ">查看会员等级</b>
+                            </div>
                         </li>
-                        <li class="c1l2_last">
-                            <img src="img/shoppingRush/input.png" alt=""></li>
+                        <li class="li3">
+                            <img src="img/myCenter/topay.png" alt=""></li>
+                        <li class="li4">
+                            <img src="img/myCenter/topay1.png" alt=""></li>
+                        <li class="li5">
+                            <img src="img/myCenter/topay2.png" alt=""></li>
                     </ul>
-                    <p class="time font_desc6">
-                        <span  class="sp1" id="dayTime">xx</span>
-                        <span  class="sp2" id="hourTime">xx</span>
-                        <span  class="sp3" id="minTime">xx</span>
-                        <span  class="sp4" id="secondTime">xx</span>
-                    </p>
-                    <p>
-                        <span class="font_green  join_shoppingcar">加入购物车</span>
-                        <span class="love">
-                            <img src="img/shoppingRush/love.png" alt=""></span>
-                        <span class="count_num">
-                            <span class="font_red2">26</span>
-                            人已购买
-                        </span>
-                    </p>
+                </div>
+                <div class="ct2_main2">
+                    <p class="p1">
+                        <span class="font_desc">我收藏的商品</span>
+                        <img src="img/myCenter/change.png" alt="" class=""></p>
+
+                    <ul  class="ct2_ul1">
+                        <li>
+                            <div class="gimg">
+                                <img src="img/myCenter/icon1.png"></div>
+                            <div class="f1title">
+                                <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                            </div>
+                            <div class="f1price">
+                                <b class="font_red2">￥59</b> <del class="font_del2 fn_hid">¥280.00</del>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gimg">
+                                <img src="img/myCenter/icon1.png"></div>
+                            <div class="f1title">
+                                <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                            </div>
+                            <div class="f1price">
+                                <b class="font_red2">￥59</b> <del class="font_del2 fn_hid">¥280.00</del>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gimg">
+                                <img src="img/myCenter/icon1.png"></div>
+                            <div class="f1title">
+                                <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                            </div>
+                            <div class="f1price">
+                                <b class="font_red2">￥59</b>
+                                <del class="font_del2 fn_hid">¥280.00</del>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gimg">
+                                <img src="img/myCenter/icon1.png"></div>
+                            <div class="f1title">
+                                <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                            </div>
+                            <div class="f1price">
+                                <b class="font_red2">￥59</b>
+                                <del class="font_del2 fn_hid">¥280.00</del>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gimg">
+                                <img src="img/myCenter/icon1.png"></div>
+                            <div class="f1title">
+                                <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                            </div>
+                            <div class="f1price">
+                                <b class="font_red2">￥59</b>
+                                <del class="font_del2 fn_hid">¥280.00</del>
+                            </div>
+                        </li>
+
+                    </ul>
+
                 </div>
             </div>
-            <div class="ct1_line3">
-                <span class="active">限时抢购介绍</span>
-                <img src="img/shoppingRush/bg7.png" alt=""></div>
-            <div class="ct1_line4">
-                <img src="img/shoppingRush/bg1.png" alt=""></div>
-
         </div>
     </div>
 
@@ -180,7 +218,9 @@
                     <div class="f1title">
                         <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
                     </div>
-                    <div class="f1price"> <b class="font_red2">￥59</b> <del class="font_del2 fn_hid">¥280.00</del>
+                    <div class="f1price">
+                        <b class="font_red2">￥59</b>
+                        <del class="font_del2 fn_hid">¥280.00</del>
                     </div>
                 </li>
                 <li>
@@ -189,7 +229,8 @@
                     <div class="f1title">
                         <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
                     </div>
-                    <div class="f1price"> <b class="font_red2">￥59</b>
+                    <div class="f1price">
+                        <b class="font_red2">￥59</b>
                         <del class="font_del2 fn_hid">¥280.00</del>
                     </div>
                 </li>
@@ -296,15 +337,13 @@
                 </div>
             </div>
             <div class="bt1_ct2 ">
-                <p>
-                    <i class="font_desc2">友情链接：</i>
+                <p> <i class="font_desc2">友情链接：</i>
                     <a href="" class="font_del2">鲜果网</a>
                     <a href="" class="font_del2">沱沱公社</a>
                     <a href="" class="font_del2">鲜果网</a>
                     <a href="" class="font_del2">沱沱公社</a>
                 </p>
-                <p>
-                    <i class="font_desc2">关于我们  |</i>
+                <p> <i class="font_desc2">关于我们  |</i>
                     <i class="font_desc2">联系我们  |</i>
                     <i class="font_desc2">服务条款</i>
                 </p>
@@ -319,7 +358,6 @@
         </p>
         <p class="p1 btp2">浙ICP备案号：浙B2-20090284-1</p>
     </div>
-
     <div class="fix_right">
         <div class="fix fix1">
             <p class="font_fix">联系客服</p>
@@ -343,42 +381,6 @@
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="lib/webui/1.0.0/pc/js/webui.min.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
-    <script type="text/javascript" src="js/goods_picture_change.js"></script>
-    <script type="text/javascript">
-
-
-                // 后端将传入的时间  转化为秒  ----》倒计时需要将时间变为秒为单位进行计算
-
-        var  time  = 5;
-        //9936000   61200  2760 40
-         countDowmTimeLoad(time);
-        /**倒计时方法*/
-        function countDowmTimeLoad(time) {
-            var time = Number(time);
-            var timer = window.setInterval(function() {
-                if (time > 1) {
-                    time--;
-                    var  day = Math.floor(time / 86400);
-                    var  day1 = time%86400;
-                    var  hour = Math.floor(day1 / 3600);
-                    var  hour1 = day1%3600;
-                    var  min = Math.floor(hour1 / 60);
-                    var  min1 = time%60;
-                    var str = day+"天"+hour+"小时"+min+"分"+min1+"秒";
-                    $("#dayTime").text(day);
-                    $("#hourTime").text(hour);
-                    $("#minTime").text(min);
-                    $("#secondTime").text(min1);
-                } else {
-                    clearInterval(timer);
-                    $("#secondTime").text("0");
-                }
-            }, 1000);
-        }
-
-
-
-    </script>
+    <script type="text/javascript"></script>
 </html>

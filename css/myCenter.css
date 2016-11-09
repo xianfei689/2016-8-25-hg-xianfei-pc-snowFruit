@@ -1,0 +1,145 @@
+.cont1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont2{
+        height: 531px;
+        margin-bottom: 50px;
+}
+.cont2 .ct2_left{
+    height: 497px;
+    width: 188px;
+    padding-top: 30px;
+    float: left;
+    border: 1px solid #dedede;
+    text-align: center;
+    background-color: #F9F9F9;
+}
+.cont2 .ct2_right{
+    width: 1000px;
+    float: right;
+
+}
+.ct2_right .ct2_main1{
+    border: 1px solid #dedede;
+    width: 100%;
+    height: 203px;
+}
+ .ct2_main1 p{
+    padding-top: 12px;
+    padding-left: 20px;
+}
+ .ct2_main1 ul{
+    margin-top: 25px;
+    margin-left: 40px;
+ }
+ .ct2_main1 .li2{
+     width: 400px;
+     margin-left: 40px;
+     position: relative;
+     bottom: 18px;
+ }
+  .ct2_main1 .li1{
+    margin-top: 20px;
+ }
+ .ct2_main1 .li2 .div2{
+        margin-bottom: 20px;
+        margin-top: 14px;
+ }
+ .ct2_main1 .info{
+    display: inline-block;
+    margin-left: 20px;
+ }
+
+  .ct2_main1 ul span{
+        font-size: 14px;
+        color: #454545px;
+  }
+  .ct2_main1  .vip{
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 8px;
+  }
+  .ct2_main1 .li3{
+    position: relative;
+    bottom: 13px;
+        left: 65px;
+        cursor: pointer;
+  }
+    .ct2_main1 .li4{
+    position: relative;
+    bottom: 13px;
+    left: 121px;
+    cursor: pointer;
+  }
+
+  .ct2_main1 .li5{
+    position: relative;
+    bottom: 13px;
+    left: 175px;
+    cursor: pointer;
+  }
+
+ .change,.ct2_main1 .li2  b, .ct2_main1 .info1{
+    cursor: pointer;
+ }
+
+.ct2_left .round{
+    background-image: url(../img/myCenter/off.png);
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    position: relative;
+    right: 9px;
+    bottom: 3px;
+}
+.ct2_left  .active{
+    background-image: url(../img/myCenter/on.png);
+}
+
+
+.bottom_style{
+    border-bottom: 1px solid #dedede;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.mt_12{
+    margin-top: 12px;
+}
+.ct2_main2{
+    width: 100%;
+}
+.ct2_main2  .p1{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.ct2_main2  .p1 img{
+    float: right;
+    cursor: pointer;
+}
+
+
+.ct2_ul1  li{
+    width: 194px;
+    height: 262px;
+    text-align: center;
+    border: 1px solid #dedede;
+    overflow: hidden;
+}
+.ct2_ul1 .gimg {
+    overflow: hidden;
+    width: 190px;
+    height: 120px;
+}
+.ct2_ul1 .f1title {
+    width: 182px;
+    margin-top: 23px;
+    margin-bottom: 14px;
+}
+
+
+

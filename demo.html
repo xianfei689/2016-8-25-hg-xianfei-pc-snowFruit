@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <title>雪山鲜果</title>
     <link rel="stylesheet" type="text/css" href="css/restPc.css">
-    <link rel="stylesheet" type="text/css" href="css/common.css"></head>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <style type="text/css">
 
-    <style type="text/css"></style>
+    </style>
 <body>
     <div class="head1">
         <div class="sf-mid-cont">
@@ -43,7 +44,7 @@
             <div class="search head2ct3">
                 <form action="" id="searchForm" name="query"  >
                     <input type="text" placeholder="请输入商品名称搜索" id="keyword" name="keyword" onkeydown="javascript:if(event.keyCode==13) search_keys('searchForm');" autocomplete="off">
-                    <a class="h2serach">搜索</a>
+                    <a class="h2serach" href="sfSearch.html">搜索</a>
                     <br/>
                     <div id="hot_search">
                         <span class="hs1">热门搜索：</span>
@@ -70,22 +71,83 @@
     <div class="head3">
         <div class="sf-mid-cont">
             <span class="h3ct h3ct1">所有商品分类</span>
-            <span class="h3ct h3ct2 active">首页</span>
-            <span class="h3ct h3ct3">鲜果预定</span>
-            <span class="h3ct h3ct4">自营礼品</span>
-            <span class="h3ct h3ct5">活动专区</span>
-            <span class="h3ct h3ct6">商铺</span>
+            <span class="h3ct h3ct2 " onclick="window.location.href='snowFruitLogin.html'">首页</span>
+            <span class="h3ct h3ct3" onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
+            <span class="h3ct h3ct4" onclick="window.location.href='propGift.html'">自营礼品</span>
+            <span class="h3ct h3ct5" onclick="window.location.href='sfPrefecture.html'">活动专区</span>
+            <span class="h3ct h3ct6 active" onclick="window.location.href='store.html'" >商铺</span>
         </div>
     </div>
 
+    <div class="cont2">
+        <div class="sf-mid-cont">全部商铺</div>
+    </div>
 
 
-<div class="cont1">
+    <div class="cont4">
+        <div class="sf-mid-cont font_desc">最近浏览过的商品</div>
+    </div>
 
-</div>
+    <div class="cont5">
+        <div class="sf-mid-cont font_desc">
 
+            <ul>
+                <li>
+                    <div class="gimg">
+                        <img src="img/search/icon4.png"></div>
+                    <div class="f1title">
+                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                    </div>
+                    <div class="f1price"> <b class="font_red2">￥59</b> <del class="font_del2 fn_hid">¥280.00</del>
+                    </div>
+                </li>
+                <li>
+                    <div class="gimg">
+                        <img src="img/search/icon4.png"></div>
+                    <div class="f1title">
+                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                    </div>
+                    <div class="f1price"> <b class="font_red2">￥59</b> <del class="font_del2 fn_hid">¥280.00</del>
+                    </div>
+                </li>
+                <li>
+                    <div class="gimg">
+                        <img src="img/search/icon4.png"></div>
+                    <div class="f1title">
+                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                    </div>
+                    <div class="f1price">
+                        <b class="font_red2">￥59</b>
+                        <del class="font_del2 fn_hid">¥280.00</del>
+                    </div>
+                </li>
+                <li>
+                    <div class="gimg">
+                        <img src="img/search/icon4.png"></div>
+                    <div class="f1title">
+                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                    </div>
+                    <div class="f1price">
+                        <b class="font_red2">￥59</b>
+                        <del class="font_del2 fn_hid">¥280.00</del>
+                    </div>
+                </li>
+                <li>
+                    <div class="gimg">
+                        <img src="img/search/icon4.png"></div>
+                    <div class="f1title">
+                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
+                    </div>
+                    <div class="f1price">
+                        <b class="font_red2">￥59</b>
+                        <del class="font_del2 fn_hid">¥280.00</del>
+                    </div>
+                </li>
 
+            </ul>
 
+        </div>
+    </div>
 
     <div class="bottom1">
         <div class="sf-mid-cont">
@@ -151,15 +213,13 @@
                 </div>
             </div>
             <div class="bt1_ct2 ">
-                <p>
-                    <i class="font_desc2">友情链接：</i>
+                <p> <i class="font_desc2">友情链接：</i>
                     <a href="" class="font_del2">鲜果网</a>
                     <a href="" class="font_del2">沱沱公社</a>
                     <a href="" class="font_del2">鲜果网</a>
                     <a href="" class="font_del2">沱沱公社</a>
                 </p>
-                <p>
-                    <i class="font_desc2">关于我们  |</i>
+                <p> <i class="font_desc2">关于我们  |</i>
                     <i class="font_desc2">联系我们  |</i>
                     <i class="font_desc2">服务条款</i>
                 </p>
@@ -174,7 +234,6 @@
         </p>
         <p class="p1 btp2">浙ICP备案号：浙B2-20090284-1</p>
     </div>
-
     <div class="fix_right">
         <div class="fix fix1">
             <p class="font_fix">联系客服</p>

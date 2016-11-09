@@ -373,6 +373,7 @@
     width: 80px;
     height: 35px;
     line-height: 35px;
+    cursor: pointer;
 }
 .c1line2_right  .active{
     border: 1px solid #33CC66;
