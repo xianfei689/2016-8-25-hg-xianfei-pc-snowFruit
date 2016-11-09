@@ -23,7 +23,6 @@ myAnimate.namespace = function(ns_string) {
             parent[parts[i]] = {};
         }
         parent = parent[parts[i]];
-        console.log(parent);
     }
     return parent;
 }

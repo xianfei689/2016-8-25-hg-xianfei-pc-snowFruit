@@ -111,7 +111,7 @@
                 <li class="m1_li6">操作</li>
             </ul>
             <ul class="m1_u2" >
-                <li class="m1u2_li1">
+                <li class="m1u2_li1  btn_check">
                     <img src="img/shoppingCar/checked.png" alt=""></li>
                 <li class="m1u2_li2">
                     <img src="img/shoppingCar/goods.png" alt=""></li>
@@ -139,7 +139,7 @@
             </ul>
 
             <ul class="m1_u2" >
-                <li class="m1u2_li1">
+                <li class="m1u2_li1 btn_check">
                     <img src="img/shoppingCar/checked.png" alt=""></li>
                 <li class="m1u2_li2">
                     <img src="img/shoppingCar/goods.png" alt=""></li>
@@ -169,7 +169,7 @@
             </ul>
 
             <ul class="m1_u2" >
-                <li class="m1u2_li1">
+                <li class="m1u2_li1 btn_check">
                     <img src="img/shoppingCar/checked.png" alt=""></li>
                 <li class="m1u2_li2">
                     <img src="img/shoppingCar/goods.png" alt=""></li>
@@ -206,8 +206,8 @@
         <div class="sf-mid-cont">
             <div class="m2_ct1">
                 <ul class="m2_u1  font1">
-                    <li class="m2_li1" checked="unchecked">
-                        <img src="img/shoppingCar/uncheck.png" alt="">全选
+                    <li class="m2_li1  btn_check" checked="unchecked">
+                        <img src="img/shoppingCar/uncheck.png" alt="" >全选
                     </li>
                     <a class="font1 select">删除选中的商品</a>
                     <a class="font1">继续购物</a>
@@ -418,41 +418,11 @@
     <script type="text/javascript" src="lib/webui/1.0.0/pc/js/webui.min.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
 
+    <script type="text/javascript" src="js/shoppingCar.js"></script>
+
     <script type="text/javascript">
 
 
 
-               /**
-                * [description]
-                * ##############################################
-                *
-                * @Author                                                                             Copyright    xianfei
-                * @Title                                         ######
-                * @DateTime                                               2016-11-04T15:23:16+0800
-                * @description          前端展示效果JavaScript
-                *
-                * ##############################################
-                * @param       {[type]} ){                                                                                                   $("#btn_groupmax").operateBtn({                    max:15,                    min:3                });             } [description]
-                * @return      {[type]}            [description]
-                */
-
-            $(function(){
-                 /**
-                  *
-                  * @see   max,min  定义数据
-                  */
-                $(".btn_groupmax1").operateBtn({
-                    max:5,
-                    min:1
-                });
-                 $(".btn_groupmax2").operateBtn({
-                    max:5,
-                    min:1
-                });
-                  $(".btn_groupmax3").operateBtn({
-                    max:5,
-                    min:1
-                });
-             });
     </script>
 </html>
