@@ -1,0 +1,246 @@
+.cont1
+{
+    width: 100%;
+    margin-top: 30px;
+}
+.cont1 .ct1_h1
+{
+    overflow: hidden;
+
+    width: 1200px;
+    height: 40px;
+}
+.ct1_h1 .ct1_l1
+{
+    width: 975px;
+    height: 40px;
+    padding-left: 20px;
+
+    background-image: url(../img/search/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ct1_h1 .ct1_l2
+{
+    line-height: 35px;
+
+    float: right;
+
+    width: 202px;
+    height: 40px;
+
+    text-align: center;
+
+    background-image: url(../img/search/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ct1_l1 a
+{
+    font-size: 14px;
+
+    color: #454545;
+}
+.ct1_l1 i
+{
+    font-size: 23px;
+
+    position: relative;
+    top: 2px;
+
+    color: #acacac;
+}
+.ct1_h1 li
+{
+    display: inline-block;
+}
+.cont1 .active
+{
+    color: #3c6;
+}
+.ct1_h2
+{
+    width: 1200px;
+}
+.ct1_h2 ul
+{
+    line-height: 53px;
+
+    overflow: hidden;
+}
+.ct1_h2 li
+{
+    font-size: 14px;
+
+    display: inline-block;
+
+    width: 102px;
+    height: 50px;
+
+    text-align: center;
+}
+.ct1_h2  .ct1_part:hover
+{
+    color: #3c6;
+}
+.ct1_h2 .ct1_part1
+{
+    width: 130px;
+    height: 53px;
+
+    background-image: url(../img/search/bg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ct1_h2 .ct1_part
+{
+    cursor: pointer;
+
+    border-bottom: 1px dashed   #e9e9e9;
+}
+.ct1_h2 img
+{
+    position: relative;
+    top: 8px;
+    right: -17px;
+
+    cursor: pointer;
+}
+.ct1_h2  .first_brand,
+.ct1_h2  .first_price
+{
+    margin-top: 4px;
+}
+.ct1_h2 .price_right
+{
+    float: right;
+
+    width: 261px;
+}
+.price_right input
+{
+    display: inline-block;
+
+    width: 69px;
+    height: 24px;
+}
+.price_right .price_mid
+{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.price_sure
+{
+    line-height: 24px;
+
+    display: inline-block;
+
+    width: 68px;
+    height: 26px;
+
+    border: 1px solid #a9a9a9;
+}
+.ct1_h3
+{
+    overflow: hidden;
+
+    width: 1200px;
+    margin-top: 3px;
+}
+.ct1_h3  li
+{
+    line-height: 34px;
+
+    display: inline-block;
+
+    width: 105px;
+    height: 34px;
+    margin-left: -3px;
+
+    text-align: center;
+
+    background-color: #f0f0f0;
+}
+.ct1_h3  li:after
+{
+    display: inline-block;
+
+    margin-left: 6px;
+
+    content: url(../img/search/low.png);
+}
+.ct1_h3 img
+{
+    float: right;
+}
+li
+{
+    display: inline-block;
+}
+.cont2
+{
+    width: 100%;
+}
+.ct2line
+{
+    margin-bottom: 26px;
+}
+.ct2line li
+{
+    width: 210px;
+    margin-right: 10px;
+    margin-left: 16px;
+
+    text-align: center;
+}
+.ct2line .gimg
+{
+    overflow: hidden;
+
+    width: 210px;
+    height: 190px;
+}
+.cont2 .f1title
+{
+    width: 135px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.cont4  .sf-mid-cont
+{
+    line-height: 44px;
+
+    height: 44px;
+    padding-left: 20px;
+
+    background-image: url(../img/search/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont3
+{
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+    text-align: center;
+}
+.cont3  a
+{
+    display: inline-block;
+
+    border: 1px solid #a9a9a9;
+}
+.cont3  .c3_change
+{
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.cont3  .c3_num{
+        height: 28px;
+        width: 28px;
+        text-align: center;
+        line-height: 28px;
+}

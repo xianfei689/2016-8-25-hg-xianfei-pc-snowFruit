@@ -30,41 +30,55 @@ thead,
 tbody,
 tfoot,
 th,
-td {
+td
+{
     margin: 0;
     padding: 0;
 }
-html {
-        font-size: 16px;
-        font-family:"Microsoft YaHei";
+html
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
 }
-a,label {
+a,
+label
+{
     cursor: pointer;
-    color: #757575;
     text-decoration: none;
+
+    color: #757575;
 }
-i,cite, em, var, address, dfn{
-        font-style: normal;
+i,
+cite,
+em,
+var,
+address,
+dfn
+{
+    font-style: normal;
 }
-ul li {
-        list-style: none;
+ul li
+{
+    list-style: none;
 }
-.fn_none{
+.fn_none
+{
     display: none;
 }
-.fn_unvis{
+.fn_unvis
+{
     visibility: hidden;
 }
-.fn_show{
+.fn_show
+{
     display: block;
     visibility: visible;
 }
-.fn_right{
+.fn_right
+{
     float: right;
 }
-.fn_left{
+.fn_left
+{
     float: left;
 }
-
-
-

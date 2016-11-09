@@ -123,5 +123,11 @@ myAnimate.snowFruitLogin.sortChange = function() {
     })
 
 }
+
+myAnimate.snowFruitLogin.SlideChange = function() {
+      $('.picScroll-left').show();
+      jQuery(".picScroll-left").slide({titCell:".slidebar",mainCell:".hotgoods",autoPage:true,effect:"leftLoop",autoPlay:true,vis:5,scroll:1});
+}
+myAnimate.snowFruitLogin.SlideChange();
 myAnimate.snowFruitLogin.sliderEffect();
 var ScrollWin = myAnimate.snowFruitLogin.sortChange();
