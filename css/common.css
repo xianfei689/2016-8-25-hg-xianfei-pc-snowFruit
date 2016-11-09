@@ -618,3 +618,25 @@ li{
     color: #33cc66;
     font-size: 16px;
 }
+
+.bar{
+        margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.bar .c3_change {
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.bar .c3_num {
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.bar a {
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+}
