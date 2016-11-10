@@ -145,6 +145,10 @@
 }
 .m1_u2  img
 {
+    position: relative;
+    top: 3px;
+    right: 6px;
+
     cursor: pointer;
 }
 .m1u2_li3 i
