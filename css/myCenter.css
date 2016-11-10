@@ -145,7 +145,9 @@
 
 .mt_12
 {
-    margin-top: 12px;
+ margin-top: 6px;
+padding-top: 4px;
+padding-bottom: 4px;
 }
 .ct2_main2
 {
@@ -188,4 +190,29 @@
     width: 182px;
     margin-top: 23px;
     margin-bottom: 14px;
+}
+
+.ct2_left .current{
+    background-color: #33CC66;
+    color: #fff;
+}
+.ct2_left  .current_white{
+      background-image: url(../img/myCenter/white_on.png);
+}
+.cont2 .ct2_right1{
+    height: 532px;
+    border: 1px solid #dedede;
+}
+
+.ct2_right1  .p1{
+    padding-top: 13px;
+    padding-left: 20px;
+    height: 36px;
+    background-color: #F9F9F9;
+
+}
+.ct2_right1  .ct2_r1_left{
+    width: 120px;
+    text-align: right;
+    display: inline-block;
 }
