@@ -92,6 +92,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.ct1_h2 .part_hid{
+    width: 130px;
+    height: 53px;
+}
+
 .ct1_h2 .ct1_part
 {
     cursor: pointer;
@@ -160,15 +165,20 @@
     text-align: center;
 
     background-color: #f0f0f0;
+    cursor: pointer;
 }
-.ct1_h3  li:after
+ .ct1_h3  .upimg
 {
+    width: 8px;
+    height: 11px;
+    background-image: url(../img/search/low.png);
+    position: relative;
     display: inline-block;
-
-    margin-left: 6px;
-
-    content: url(../img/search/low.png);
+    left: 7px;
 }
+ .ct1_h3  .show{
+      background-image: url(../img/search/high.png);
+ }
 .ct1_h3 img
 {
     float: right;

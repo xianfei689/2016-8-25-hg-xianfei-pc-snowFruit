@@ -72,8 +72,8 @@
         <div class="sf-mid-cont">
             <span class="h3ct h3ct1">所有商品分类</span>
             <span class="h3ct h3ct2 " onclick="window.location.href='snowFruitLogin.html'">首页</span>
-            <span class="h3ct h3ct3" onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
-            <span class="h3ct h3ct4  active" onclick="window.location.href='propGift.html'">自营礼品</span>
+            <span class="h3ct h3ct3 " onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
+            <span class="h3ct h3ct4 active" onclick="window.location.href='propGift.html'">自营礼品</span>
             <span class="h3ct h3ct5" onclick="window.location.href='sfPrefecture.html'">活动专区</span>
             <span class="h3ct h3ct6 " onclick="window.location.href='store.html'" >商铺</span>
         </div>
@@ -101,7 +101,7 @@
                     商品
                 </li>
             </ul>
-            <div class="ct1_h2">
+            <div class="ct1_h2" id="sortAll">
                 <ul class="classify ch2_ct1" >
                     <li class="ct1_part1">分类</li>
                     <li class="ct1_part active">全部</li>
@@ -113,14 +113,14 @@
                     <li class="ct1_part">佳沛</li>
                     <li class="ct1_part">花果山</li>
                     <li class="ct1_part">世果汇</li>
-                    <li class="ct1_part show_more">
-                        <img src="img/search/down.png"></li>
+                    <li class=" show_more">
+                        <img src="img/search/more.png"></li>
                 </ul>
-                <ul class="classify ch2_ct1" >
-                    <li class="ct1_part1">
+                <ul class="classify ch2_ct1  fn_none" >
+                    <li class="part_hid">
                         <a href="" class="fn_unvis">hid</a>
                     </li>
-                    <li class="ct1_part">
+                    <li >
                         <a href="" class="fn_unvis">hid</a>
                     </li>
                     <li class="ct1_part">进口水果</li>
@@ -132,11 +132,11 @@
                     <li class="ct1_part">双心Doppelher</li>
                     <li class="ct1_part">乐康膏NU-LAX</li>
                 </ul>
-                <ul class="classify ch2_ct1" >
-                    <li class="ct1_part1">
+                <ul class="classify ch2_ct1 fn_none" >
+                    <li class="part_hid">
                         <a href="" class="fn_unvis">hid</a>
                     </li>
-                    <li class="ct1_part">
+                    <li>
                         <a href="" class="fn_unvis">hid</a>
                     </li>
                     <li class="ct1_part">进口水果</li>
@@ -160,13 +160,13 @@
                     <li class="ct1_part">花果山</li>
                     <li class="ct1_part">世果汇</li>
                     <li class="show_more">
-                        <img src="img/search/down.png"></li>
+                        <img src="img/search/more.png"></li>
                 </ul>
-                <ul class="brand ch2_ct1"  >
-                    <li class="ct1_part1">
+                <ul class="brand ch2_ct1 fn_none"  >
+                    <li class="part_hid">
                         <a href="" class="fn_unvis">hid</a>
                     </li>
-                    <li class="ct1_part active">
+                    <li>
                         <a href="" class="fn_unvis">hid</a>
                     </li>
                     <li class="ct1_part">自营</li>
@@ -195,9 +195,9 @@
             </div>
             <div class="ct1_h3">
                         <ul>
-                            <li><a href="">销量</a></li>
-                            <li><a href="">评价</a></li>
-                            <li><a href="">价格</a></li>
+                            <li class="sortLine " ><span>销量</span><span class="upimg"></span></li>
+                            <li class="sortLine"><span>评价</span><span class="upimg"></span></li>
+                            <li class="sortLine"><span>价格</span><span class="upimg"></span></li>
                             <img src="img/search/bg4.png" alt="">
                         </ul>
             </div>
@@ -641,5 +641,6 @@
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
+    <script src="js/sfSearch.js"></script>
     <script type="text/javascript"></script>
 </html>
