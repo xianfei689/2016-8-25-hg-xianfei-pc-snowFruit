@@ -233,14 +233,19 @@ li
 }
 .cont3  .c3_change
 {
+    line-height: 28px;
+
     width: 70px;
     height: 28px;
-    line-height: 28px;
+
     text-align: center;
 }
-.cont3  .c3_num{
-        height: 28px;
-        width: 28px;
-        text-align: center;
-        line-height: 28px;
+.cont3  .c3_num
+{
+    line-height: 28px;
+
+    width: 28px;
+    height: 28px;
+
+    text-align: center;
 }
