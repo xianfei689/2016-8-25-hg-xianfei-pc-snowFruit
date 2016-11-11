@@ -123,12 +123,12 @@
                 </p>
 
                 <p class="font_desc">资料管理</p>
-                <p class="change font_del3 mt_12 current">
-                    <span class="round  current_white"></span>
+                <p class="change font_del3 mt_12 ">
+                    <span class="round  "></span>
                     个人资料
                 </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
+                <p class="change font_del3 mt_12 current">
+                    <span class="round current_white "></span>
                     员工认证
                 </p>
                 <p class="change font_del3 mt_12">
@@ -142,101 +142,31 @@
 
             </div>
             <div class="ct2_right  ct2_right1">
-                <p class="p1 font_desc">个人资料</p>
+                <p class="p1 font_desc">员工认证</p>
                 <p class="p2  font_desc1">
-                    <label for="userName " class="font_desc1 ct2_r1_left ">用户名：</label>
-                    <input type="text" name="userName" id="userName" placeholder="请输入用户名"  class="inputDiv"></p>
-                <p class="p3 font_desc1">
-                    <label for="sex" class="font_desc1 ct2_r1_left" >
-                        <span class="font_hotred">*</span>
-                        性别：
-                    </label>
-                    <input type="radio" name="sex" value="B">
-                    男
-                    <input type="radio" name="sex" value="G" class="sexInput">
-                    女
-                    <input type="radio" name="sex" value="X" class="sexInput">保密</p>
-                <p class="p4">
-                    <span class="ct2_r1_left font_desc1">
-                        <span class="font_hotred">*</span >
-                        绑定手机号：
+                    <label for="companyName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>公司名称：</label>
+                    <input type="text" name="companyName" id="companyName" placeholder="请输入公司名称"  class="inputDiv"></p>
+
+                   <p class="p3  font_desc1">
+                    <label for="branchName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>部门名称：</label>
+                    <input type="text" name="branchName" id="branchName" placeholder="请输入部门名称"  class="inputDiv"></p>
+
+                       <p class="p4  font_desc1">
+                    <label for="staffName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>员工姓名：</label>
+                    <input type="text" name="staffName" id="staffName" placeholder="请输入员工姓名"  class="inputDiv"></p>
+
+                       <p class="p5  font_desc1">
+                    <label for="staffId " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>工位工号：</label>
+                    <input type="text" name="staffId" id="staffId" placeholder="请输入工位工号"  class="inputDiv"></p>
+
+                <p class="p2_1">
+                    <span for="certificate " class="font_desc1 ct2_r1_left  fn_left">
+                             工作证件：
                     </span>
-                    <span>
-                        <span class="font_desc1">未绑定</span>
-                        <a href="#" class="font_gr">立即绑定</a>
-                    </span>
-                </p>
-                <p class="p5">
-                    <label for="email " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        绑定邮箱号：
+                    <label for="certificate"  id="forCertificate">
+                            <img src="img/myCenter/upImg.png" alt="">
                     </label>
-                    <input type="text" name="email" id="email" placeholder="请输入邮箱" class="inputDiv"></p>
-                <p class="p6">
-                    <label for="name " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        用户昵称：
-                    </label>
-                    <input type="text" name="name" id="name" placeholder="请输入用户昵称" class="inputDiv"></p>
-                <p class="p7">
-                    <label for="realName " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        真实姓名：
-                    </label>
-                    <input type="text" name="realName" id="realName" placeholder="请输入真实姓名" class="inputDiv"></p>
-                <p class="p8">
-                    <label for="address " class="font_desc1 ct2_r1_left ">所在地址：</label>
-                    <select id="provinceDiv" class="" onchange="loadCity()">
-                        <option>请选择</option>
-                        <option value="110000">北京市</option>
-                        <option value="310000">上海市</option>
-                        <option value="120000">天津市</option>
-                        <option value="500000">重庆</option>
-                        <option value="130000">河北省</option>
-                        <option value="140000">山西省</option>
-                        <option value="410000">河南省</option>
-                        <option value="210000">辽宁省</option>
-                        <option value="220000">吉林省</option>
-                        <option value="230000">黑龙江省</option>
-                        <option value="150000">内蒙古</option>
-                        <option value="320000">江苏省</option>
-                        <option value="370000">山东省</option>
-                        <option value="340000">安徽省</option>
-                        <option value="330000">浙江省</option>
-                        <option value="350000">福建省</option>
-                        <option value="420000">湖北省</option>
-                        <option value="430000">湖南省</option>
-                        <option value="440000">广东省</option>
-                        <option value="450000">广西壮族</option>
-                        <option value="360000">江西省</option>
-                        <option value="510000">四川省</option>
-                        <option value="460000">海南省</option>
-                        <option value="520000">贵州省</option>
-                        <option value="530000">云南省</option>
-                        <option value="540000">西藏</option>
-                        <option value="610000">陕西省</option>
-                        <option value="620000">甘肃省</option>
-                        <option value="630000">青海省</option>
-                        <option value="640000">宁夏</option>
-                        <option value="650000">新疆</option>
-                        <option value="710000">台湾省</option>
-                        <option value="810000">香港</option>
-                        <option value="820000">澳门</option>
-                        <option value="990000">海外</option>
-                    </select>
-                    <select id="cityDiv" class="sele" onchange="loadCounty()">
-                        <option value="0">请选择</option>
-                    </select>
-                    <select id="countyDiv" class="sele" >
-                        <option value="0">请选择</option>
-                    </select>
-                </p>
-                <p class="p9">
-                    <label for="name " class="font_desc1 ct2_r1_left ">出生年月：</label>
-                    <span>
-                        <input name="control_date" type="text" id="control_date" size="10" maxlength="10" onClick="new Calendar(1850,2020).show(this);" readonly="readonly" placeholder="请选择出生时间"  class="inputDiv"/>
-                    </span>
-                </p>
+                    <input  name="certificate" id="certificate" type="file" class="fn_none"></p>
                 <p class="p10">保存</p>
             </div>
         </div>
@@ -352,51 +282,10 @@
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="js/city.data-3.js"></script>
-    <script type="text/javascript" src="lib/date/Calendar.js"></script>
 
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script type="text/javascript">
 
-                function  loadCity(){
-                            $("#cityDiv").find(".city").remove()
-                            var  provinceId = $("#provinceDiv").val().trim()
-                            var cityHtml = ''
-                             cityData3.forEach(function(item) {
-
-                                        if (item.value==provinceId) {
-                                              var citys = item.children
-                                              citys.forEach(function(city){
-                                                         cityHtml += '<option value="'+city.value+'" class="city">'+city.text+'</option>'
-                                              })
-                                              $("#cityDiv").append(cityHtml)
-
-                                        }
-                            });
-
-                }
-
-                function  loadCounty(){
-                        $("#countyDiv").find(".county").remove()
-                        var  provinceId = $("#provinceDiv").val().trim()
-                        var  cityId = $("#cityDiv").val().trim()
-                        var countyHtml = ''
-                        cityData3.forEach(function(item) {
-                                        if (item.value==provinceId) {
-                                              var citys = item.children
-                                              citys.forEach(function(city){
-                                                        if (city.value==cityId) {
-                                                                    var countys = city.children
-                                                                    countys.forEach(function(county){
-                                                                         countyHtml +='<option value="'+county.value+'" class="county">'+county.text+'</option>'
-                                                                    })
-                                                        }
-                                              })
-                                        }
-                        });
-                        $("#countyDiv").append(countyHtml)
-
-                }
 
     </script>
 </html>

@@ -110,10 +110,10 @@
 
                 <p class="font_desc">售后服务</p>
                 <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
+                    <span class="round  current_white"></span>
                     退货管理
                 </p>
-                <p class="change font_del3 mt_12">
+                <p class="change font_del3 mt_12 current">
                     <span class="round  "></span>
                     换货管理
                 </p>
@@ -123,8 +123,8 @@
                 </p>
 
                 <p class="font_desc">资料管理</p>
-                <p class="change font_del3 mt_12 current">
-                    <span class="round  current_white"></span>
+                <p class="change font_del3 mt_12 ">
+                    <span class="round  "></span>
                     个人资料
                 </p>
                 <p class="change font_del3 mt_12">
@@ -141,109 +141,186 @@
                 </p>
 
             </div>
-            <div class="ct2_right  ct2_right1">
-                <p class="p1 font_desc">个人资料</p>
-                <p class="p2  font_desc1">
-                    <label for="userName " class="font_desc1 ct2_r1_left ">用户名：</label>
-                    <input type="text" name="userName" id="userName" placeholder="请输入用户名"  class="inputDiv"></p>
-                <p class="p3 font_desc1">
-                    <label for="sex" class="font_desc1 ct2_r1_left" >
-                        <span class="font_hotred">*</span>
-                        性别：
-                    </label>
-                    <input type="radio" name="sex" value="B">
-                    男
-                    <input type="radio" name="sex" value="G" class="sexInput">
-                    女
-                    <input type="radio" name="sex" value="X" class="sexInput">保密</p>
-                <p class="p4">
-                    <span class="ct2_r1_left font_desc1">
-                        <span class="font_hotred">*</span >
-                        绑定手机号：
-                    </span>
+            <div class="ct2_right  ct2_right3">
+                <p class="p1 font_desc  p_head"><span onclick="window.location.href='myCenterExchangeGoods.html'">换货管理</span>&gt;<span>换货详情</span></p>
+                <p class="p2">
+                    <label for="exchangeId" class="sp1 font_desc1">换货单号</label>
+                    <input type="text" placeholder="输入商品订单号进行搜索" class="inputDiv" id="exchangeId">
+                    <label for="" class="applyforTime font_desc1">申请时间</label>
                     <span>
-                        <span class="font_desc1">未绑定</span>
-                        <a href="#" class="font_gr">立即绑定</a>
+                        <input name="control_date" type="text" id="startTime" size="10" maxlength="10" onClick="new Calendar(1850,2020).show(this);" readonly="readonly" placeholder="请选择起始时间范围"  class="inputDiv"/>
                     </span>
-                </p>
-                <p class="p5">
-                    <label for="email " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        绑定邮箱号：
-                    </label>
-                    <input type="text" name="email" id="email" placeholder="请输入邮箱" class="inputDiv"></p>
-                <p class="p6">
-                    <label for="name " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        用户昵称：
-                    </label>
-                    <input type="text" name="name" id="name" placeholder="请输入用户昵称" class="inputDiv"></p>
-                <p class="p7">
-                    <label for="realName " class="font_desc1 ct2_r1_left ">
-                        <span class="font_hotred">*</span>
-                        真实姓名：
-                    </label>
-                    <input type="text" name="realName" id="realName" placeholder="请输入真实姓名" class="inputDiv"></p>
-                <p class="p8">
-                    <label for="address " class="font_desc1 ct2_r1_left ">所在地址：</label>
-                    <select id="provinceDiv" class="" onchange="loadCity()">
-                        <option>请选择</option>
-                        <option value="110000">北京市</option>
-                        <option value="310000">上海市</option>
-                        <option value="120000">天津市</option>
-                        <option value="500000">重庆</option>
-                        <option value="130000">河北省</option>
-                        <option value="140000">山西省</option>
-                        <option value="410000">河南省</option>
-                        <option value="210000">辽宁省</option>
-                        <option value="220000">吉林省</option>
-                        <option value="230000">黑龙江省</option>
-                        <option value="150000">内蒙古</option>
-                        <option value="320000">江苏省</option>
-                        <option value="370000">山东省</option>
-                        <option value="340000">安徽省</option>
-                        <option value="330000">浙江省</option>
-                        <option value="350000">福建省</option>
-                        <option value="420000">湖北省</option>
-                        <option value="430000">湖南省</option>
-                        <option value="440000">广东省</option>
-                        <option value="450000">广西壮族</option>
-                        <option value="360000">江西省</option>
-                        <option value="510000">四川省</option>
-                        <option value="460000">海南省</option>
-                        <option value="520000">贵州省</option>
-                        <option value="530000">云南省</option>
-                        <option value="540000">西藏</option>
-                        <option value="610000">陕西省</option>
-                        <option value="620000">甘肃省</option>
-                        <option value="630000">青海省</option>
-                        <option value="640000">宁夏</option>
-                        <option value="650000">新疆</option>
-                        <option value="710000">台湾省</option>
-                        <option value="810000">香港</option>
-                        <option value="820000">澳门</option>
-                        <option value="990000">海外</option>
-                    </select>
-                    <select id="cityDiv" class="sele" onchange="loadCounty()">
-                        <option value="0">请选择</option>
-                    </select>
-                    <select id="countyDiv" class="sele" >
-                        <option value="0">请选择</option>
-                    </select>
-                </p>
-                <p class="p9">
-                    <label for="name " class="font_desc1 ct2_r1_left ">出生年月：</label>
+                    <span class="sp4">-</span>
                     <span>
-                        <input name="control_date" type="text" id="control_date" size="10" maxlength="10" onClick="new Calendar(1850,2020).show(this);" readonly="readonly" placeholder="请选择出生时间"  class="inputDiv"/>
+                        <input name="control_date" type="text" id="endTime" size="10" maxlength="10" onClick="new Calendar(1850,2020).show(this);" readonly="readonly" placeholder="请选择结束时间范围"  class="inputDiv"/>
                     </span>
                 </p>
-                <p class="p10">保存</p>
+            </div>
+
+            <div class="ct2_right  ct2_right4">
+                        <ul class="titile">
+                            <li class="li1">换货单号</li>
+                            <li class="li2">换货订单号</li>
+                            <li class="li3">申请换货时间</li>
+                            <li class="li4">换货原因</li>
+                            <li class="li5">换货状态</li>
+                            <li class="li6">操作</li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a  onclick="window.location.href='echagneGoodsDetails.html'">详情</a>
+                                <a onclick="window.location.href='echagneGoodsModify.html'">修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5 exchange_suc">换货成功</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5 exchange_fail">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                                     <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                                     <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                                     <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                                     <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                                     <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <ul class="cont">
+                             <li class="li1">TK2016102701550</li>
+                            <li class="li2">2016102701550</li>
+                            <li class="li3">2016-08-26 22:15</li>
+                            <li class="li4">尺码问题</li>
+                            <li class="li5">正在审核</li>
+                            <li class="li6">
+                                <a>详情</a>
+                                <a>修改</a>
+                            </li>
+                        </ul>
+                        <div class="btm_bar">
+                                <a href="" class="c3_change">&lt;上一页</a>
+                                <a href="" class="c3_num active">1</a>
+                                <a href="" class="c3_num">2</a>
+                                <a href="" class="c3_num">3</a>
+                                <span href="">...</span>
+                                <a href="" class="c3_change">下一页&gt;</a>
+                    </div>
             </div>
         </div>
     </div>
-    <div class="banner">
-
-    </div>
+    <div class="banner"></div>
     <div class="bottom1">
         <div class="sf-mid-cont">
             <div class="bt1_ct">
@@ -348,55 +425,12 @@
         <div class="fix fix6">
             <p class="font_fix">我的足迹</p>
             <img src="img/img6.png" alt=""></div>
-
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="js/city.data-3.js"></script>
-    <script type="text/javascript" src="lib/date/Calendar.js"></script>
-
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script type="text/javascript">
 
-                function  loadCity(){
-                            $("#cityDiv").find(".city").remove()
-                            var  provinceId = $("#provinceDiv").val().trim()
-                            var cityHtml = ''
-                             cityData3.forEach(function(item) {
-
-                                        if (item.value==provinceId) {
-                                              var citys = item.children
-                                              citys.forEach(function(city){
-                                                         cityHtml += '<option value="'+city.value+'" class="city">'+city.text+'</option>'
-                                              })
-                                              $("#cityDiv").append(cityHtml)
-
-                                        }
-                            });
-
-                }
-
-                function  loadCounty(){
-                        $("#countyDiv").find(".county").remove()
-                        var  provinceId = $("#provinceDiv").val().trim()
-                        var  cityId = $("#cityDiv").val().trim()
-                        var countyHtml = ''
-                        cityData3.forEach(function(item) {
-                                        if (item.value==provinceId) {
-                                              var citys = item.children
-                                              citys.forEach(function(city){
-                                                        if (city.value==cityId) {
-                                                                    var countys = city.children
-                                                                    countys.forEach(function(county){
-                                                                         countyHtml +='<option value="'+county.value+'" class="county">'+county.text+'</option>'
-                                                                    })
-                                                        }
-                                              })
-                                        }
-                        });
-                        $("#countyDiv").append(countyHtml)
-
-                }
 
     </script>
 </html>
