@@ -110,15 +110,15 @@
 
                 <p class="font_desc">售后服务</p>
                 <p class="change font_del3 mt_12">
-                    <span class="round  current_white"></span>
+                    <span class="round  "></span>
                     退货管理
                 </p>
-                <p class="change font_del3 mt_12 current">
+                <p class="change font_del3 mt_12 ">
                     <span class="round  "></span>
                     换货管理
                 </p>
-                <p class="change font_del3 mt_12  bottom_style">
-                    <span class="round  "></span>
+                <p class="change font_del3 mt_12  bottom_style  current">
+                    <span class="round current_white "></span>
                     退款管理
                 </p>
 
@@ -142,9 +142,9 @@
 
             </div>
             <div class="ct2_right  ct2_right3">
-                <p class="p1 font_desc  p_head"><span onclick="window.location.href='myCenterExchangeGoods.html'">换货管理</span>&gt;<span>换货详情</span></p>
+                <p class="p1 font_desc  p_head">退款管理</p>
                 <p class="p2">
-                    <label for="exchangeId" class="sp1 font_desc1">换货单号</label>
+                    <label for="exchangeId" class="sp1 font_desc1">退款单号</label>
                     <input type="text" placeholder="输入商品订单号进行搜索" class="inputDiv" id="exchangeId">
                     <label for="" class="applyforTime font_desc1">申请时间</label>
                     <span>
@@ -155,15 +155,26 @@
                         <input name="control_date" type="text" id="endTime" size="10" maxlength="10" onClick="new Calendar(1850,2020).show(this);" readonly="readonly" placeholder="请选择结束时间范围"  class="inputDiv"/>
                     </span>
                 </p>
+                <p class="p3">
+                      <label for="exhangeStatue" class="font_desc1 sp1 ">退款状态</label>
+                      <select id="exhangeStatue" class="inputDiv" onchange="">
+                                 <option>请选择</option>
+                                  <option value="001">全部</option>
+                                  <option value="001">失败</option>
+                                  <option value="001">成功</option>
+                      </select>
+                        <a class="search">搜索</a>
+                        <a  class="reset" onclick="resetInput()">条件重置</a>
+                </p>
             </div>
 
             <div class="ct2_right  ct2_right4">
                         <ul class="titile">
-                            <li class="li1">换货单号</li>
-                            <li class="li2">换货订单号</li>
-                            <li class="li3">申请换货时间</li>
-                            <li class="li4">换货原因</li>
-                            <li class="li5">换货状态</li>
+                            <li class="li1">退款单号</li>
+                            <li class="li2">退款订单号</li>
+                            <li class="li3">申请退款时间</li>
+                            <li class="li4">退款原因</li>
+                            <li class="li5">退款状态</li>
                             <li class="li6">操作</li>
                         </ul>
                         <ul class="cont">
@@ -173,8 +184,8 @@
                             <li class="li4">尺码问题</li>
                             <li class="li5">正在审核</li>
                             <li class="li6">
-                                <a  onclick="window.location.href='echagneGoodsDetails.html'">详情</a>
-                                <a onclick="window.location.href='echagneGoodsModify.html'">修改</a>
+                                <a  onclick="window.location.href='myCenterRefundDetails.html'">详情</a>
+                                <a onclick="window.location.href='myCenterRefundModify.html'">修改</a>
                             </li>
                         </ul>
                         <ul class="cont">
@@ -182,7 +193,7 @@
                             <li class="li2">2016102701550</li>
                             <li class="li3">2016-08-26 22:15</li>
                             <li class="li4">尺码问题</li>
-                            <li class="li5 exchange_suc">换货成功</li>
+                            <li class="li5 exchange_suc">退款成功</li>
                             <li class="li6">
                                 <a>详情</a>
                                 <a>修改</a>
@@ -428,9 +439,17 @@
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="lib/date/Calendar.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script type="text/javascript">
 
+            //搜索条件重置
+            function resetInput(){
+                    $("#exchangeId").val("")
+                    $("#startTime").val("")
+                    $("#endTime").val("")
+                    $("#exhangeStatue").val("请选择")
+            }
 
     </script>
 </html>

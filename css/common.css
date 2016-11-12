@@ -2,6 +2,8 @@
  *  @date:2016-11-03T09:00:15+0800;
  *  @see: 雪山生鲜 头部和尾部的  common  css;
  */
+
+
 .sf-mid-cont
 {
     width: 1200px;
@@ -301,6 +303,7 @@
     text-align: center;
 
     background-color: #fff;
+    overflow: hidden;
 }
 .bt1_ct img
 {
@@ -687,4 +690,8 @@ li
     display: inline-block;
 
     border: 1px solid #a9a9a9;
+}
+
+.bg_bottom{
+    background-color: #F8F8F8;
 }

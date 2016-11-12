@@ -127,12 +127,12 @@
                     <span class="round  "></span>
                     个人资料
                 </p>
-                <p class="change font_del3 mt_12 current">
-                    <span class="round current_white "></span>
-                    员工认证
-                </p>
                 <p class="change font_del3 mt_12">
                     <span class="round  "></span>
+                    员工认证
+                </p>
+                <p class="change font_del3 mt_12  current">
+                    <span class="round  current_white"></span>
                     修改密码
                 </p>
                 <p class="change font_del3 mt_12">
@@ -142,36 +142,32 @@
 
             </div>
             <div class="ct2_right  ct2_right1">
-                <p class="p1 font_desc">员工认证</p>
-                <p class="p2  font_desc1">
-                    <label for="companyName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>公司名称：</label>
-                    <input type="text" name="companyName" id="companyName" placeholder="请输入公司名称"  class="inputDiv"></p>
+                <p class="p1 font_desc">修改密码</p>
 
-                   <p class="p3  font_desc1">
-                    <label for="branchName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>部门名称：</label>
-                    <input type="text" name="branchName" id="branchName" placeholder="请输入部门名称"  class="inputDiv"></p>
 
-                       <p class="p4  font_desc1">
-                    <label for="staffName " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>员工姓名：</label>
-                    <input type="text" name="staffName" id="staffName" placeholder="请输入员工姓名"  class="inputDiv"></p>
-
-                       <p class="p5  font_desc1">
-                    <label for="staffId " class="font_desc1 ct2_r1_left "><span class="font_hotred">*</span>工位工号：</label>
-                    <input type="text" name="staffId" id="staffId" placeholder="请输入工位工号"  class="inputDiv"></p>
-
-                <p class="p2_1">
-                    <span for="certificate " class="font_desc1 ct2_r1_left  fn_left">
-                             工作证件：
-                    </span>
-                    <label for="certificate"  id="forCertificate">
-                            <img src="img/myCenter/upImg.png" alt="">
+                <p class="p5">
+                    <label for="oldPwd " class="font_desc1 ct2_r1_left ">
+                        <span class="font_hotred">*</span>
+                        原始密码：
                     </label>
-                    <input  name="certificate" id="certificate" type="file" class="fn_none"></p>
+                    <input type="text" name="oldPwd" id="oldPwd" placeholder="请输入原始密码" class="inputDiv"></p>
+                <p class="p6">
+                    <label for="newPwd " class="font_desc1 ct2_r1_left ">
+                        <span class="font_hotred">*</span>
+                        新密码：
+                    </label>
+                    <input type="text" name="newPwd" id="newPwd" placeholder="请输入新密码" class="inputDiv"></p>
+                <p class="p7">
+                    <label for="reNewPwd " class="font_desc1 ct2_r1_left ">
+                        <span class="font_hotred">*</span>
+                        确认新密码：
+                    </label>
+                    <input type="text" name="reNewPwd" id="reNewPwd" placeholder="请再次输入新密码" class="inputDiv"></p>
                 <p class="p10">保存</p>
             </div>
         </div>
     </div>
-    <div class="bottom1 bg_bottom"  style="margin-top: 80px;">
+    <div class="bottom1 bg_bottom" style="margin-top: 80px;">
         <div class="sf-mid-cont">
             <div class="bt1_ct">
                 <img src="img/bt1.png" alt="">
@@ -249,7 +245,7 @@
 
         </div>
     </div>
-    <div class="bottom2   bg_bottom">
+    <div class="bottom2  bg_bottom">
         <img src="img/bt_line2.png" alt="">
         <p class="p1 btp1">
             Copyright © 2014 hg365.com All Rights Reserved 浙江汇购科技股份有限公司 版权所
@@ -279,10 +275,51 @@
     </div>
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/city.data-3.js"></script>
+    <script type="text/javascript" src="lib/date/Calendar.js"></script>
 
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script type="text/javascript">
 
+                function  loadCity(){
+                            $("#cityDiv").find(".city").remove()
+                            var  provinceId = $("#provinceDiv").val().trim()
+                            var cityHtml = ''
+                             cityData3.forEach(function(item) {
+
+                                        if (item.value==provinceId) {
+                                              var citys = item.children
+                                              citys.forEach(function(city){
+                                                         cityHtml += '<option value="'+city.value+'" class="city">'+city.text+'</option>'
+                                              })
+                                              $("#cityDiv").append(cityHtml)
+
+                                        }
+                            });
+
+                }
+
+                function  loadCounty(){
+                        $("#countyDiv").find(".county").remove()
+                        var  provinceId = $("#provinceDiv").val().trim()
+                        var  cityId = $("#cityDiv").val().trim()
+                        var countyHtml = ''
+                        cityData3.forEach(function(item) {
+                                        if (item.value==provinceId) {
+                                              var citys = item.children
+                                              citys.forEach(function(city){
+                                                        if (city.value==cityId) {
+                                                                    var countys = city.children
+                                                                    countys.forEach(function(county){
+                                                                         countyHtml +='<option value="'+county.value+'" class="county">'+county.text+'</option>'
+                                                                    })
+                                                        }
+                                              })
+                                        }
+                        });
+                        $("#countyDiv").append(countyHtml)
+
+                }
 
     </script>
 </html>

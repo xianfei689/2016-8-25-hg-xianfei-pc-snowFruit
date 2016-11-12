@@ -109,11 +109,11 @@
                 </p>
 
                 <p class="font_desc">售后服务</p>
-                <p class="change font_del3 mt_12">
+                <p class="change font_del3 mt_12  current">
                     <span class="round  current_white"></span>
                     退货管理
                 </p>
-                <p class="change font_del3 mt_12 current">
+                <p class="change font_del3 mt_12 ">
                     <span class="round  "></span>
                     换货管理
                 </p>
@@ -143,25 +143,25 @@
             </div>
             <div class="ct2_right  ct2_right5 ">
                 <p class="p1 font_desc  p_head">
-                    <span onclick="window.location.href='myCenterExchangeGoods.html'">换货管理</span>
+                    <span onclick="window.location.href='myCenterExchangeGoods.html'">退货管理</span>
                     &gt;
-                    <span>修改换货单</span>
+                    <span>退货详情</span>
                 </p>
                 <ul>
                     <li class="li1">
-                        <span >换货单号：</span>
+                        <span >退货单号：</span>
                         <span class="exchangeId1">TH201310220001</span>
                     </li>
                     <li class="li2">
-                        <span >换货订单：</span>
+                        <span >退货订单：</span>
                         <span class="exchangeId2">201310220001</span>
                     </li>
                     <li class="li3">
-                        <span >换货金额：</span>
+                        <span >退货金额：</span>
                         <span class="exchangeId2 font_red2">￥1698.00</span>
                     </li>
                     <li class="li4">
-                        <span >换货状态：</span>
+                        <span >退货状态：</span>
                         <span class="exchangeId2">待审核</span>
                     </li>
                 </ul>
@@ -169,13 +169,11 @@
 
             <div class="ct2_right  ct2_right6">
                         <p class="p1">
-                            <span class="sp1"><span class="font_hotred">*</span>商品信息</span>
-                            <span>
-                               <img src="img/shoppingCar/uncheck.png" alt="" class="checkAll">全选<i>（请勾选您要换货的商品）</i>
-                            </span>
+                         退货商品清单
                         </p>
                         <p class="goodsCont">
-                               <img src="img/shoppingCar/uncheck.png" alt="" class="checkOne inline_block"></i>
+                              <input type="checkbox"  id="Exchangegoods1" class="checkOne fn_unvis">
+                              <label for="Exchangegoods1">
                                <img src="img/myCenter/img1.png" alt="" class="inline_block">
                                 <span class="inline_block sp2">
                                      <i class="font_desc1">中空姐毛绒公仔（红）创意礼物 南航cc 宝贝造型 礼品</i>
@@ -189,27 +187,13 @@
                                 <span class="inline_block sp4">
                                     1
                                 </span>
+                                </label>
                                 <hr>
                         </p>
+
                          <p class="goodsCont">
-                               <img src="img/shoppingCar/uncheck.png" alt="" class="checkOne inline_block"></i>
-                               <img src="img/myCenter/img1.png" alt="" class="inline_block">
-                                <span class="inline_block sp2">
-                                     <i class="font_desc1">中空姐毛绒公仔（红）创意礼物 南航cc 宝贝造型 礼品</i>
-                                     <br>
-                                     <span >颜色：</span><span class="color">红色</span>
-                                     <span>尺码：</span><span class="size">超大号110cm</span>
-                                </span>
-                                <span class="inline_block sp3">
-                                    ￥799.00
-                                </span>
-                                <span class="inline_block sp4">
-                                    1
-                                </span>
-                                <hr>
-                        </p>
-                         <p class="goodsCont">
-                               <img src="img/shoppingCar/uncheck.png" alt="" class="checkOne inline_block"></i>
+                              <input type="checkbox"  id="Exchangegoods2" class="checkOne fn_unvis">
+                              <label for="Exchangegoods2">
                                <img src="img/myCenter/img1.png" alt="" class="inline_block">
                                 <span class="inline_block sp2">
                                      <i class="font_desc1">中空姐毛绒公仔（红）创意礼物 南航cc 宝贝造型 礼品</i>
@@ -223,30 +207,70 @@
                                 <span class="inline_block sp4">
                                     1
                                 </span>
+                                </label>
+                                <hr>
                         </p>
+
+
+                         <p class="goodsCont">
+                              <input type="checkbox"  id="Exchangegoods3" class="checkOne fn_unvis">
+                              <label for="Exchangegoods3">
+                               <img src="img/myCenter/img1.png" alt="" class="inline_block">
+                                <span class="inline_block sp2">
+                                     <i class="font_desc1">中空姐毛绒公仔（红）创意礼物 南航cc 宝贝造型 礼品</i>
+                                     <br>
+                                     <span>颜色：</span><span class="color">红色</span>
+                                     <span>尺码：</span><span class="size">超大号110cm</span>
+                                </span>
+                                <span class="inline_block sp3">
+                                    ￥799.00
+                                </span>
+                                <span class="inline_block sp4">
+                                    1
+                                </span>
+                                </label>
+                        </p>
+
+
+
             </div>
-            <div class="ct2_right  ct2_right7" >
-                    <p class="p1">
-                            <span class="sp1"><span class="font_hotred">*</span>换货原因</span>
-                    </p>
-                    <div class="content">
-                                <p>
-                                    <input type="checkbox" id="sizeProblem">
-                                    <label for="sizeProblem">尺码问题</label>
-                                     <input type="checkbox" id="qualityProblem">
-                                    <label for="qualityProblem">商品质量问题</label>
-                                     <input type="checkbox" id="colorProblem">
-                                    <label for="colorProblem">颜色问题</label>
-                                </p>
+            <div class="ct2_right  ct2_right7 ct2_right8" >
+                    <div class="p1">
+                            退货详情
                     </div>
+                      <p class="p2">
+                            <span>退货原因：</span>
+                            <span>尺码问题</span>
+                      </p>
+                         <p class="p9">
+                            <span>补充说明：</span>
+                            <span>麻烦帮我换成XXXL码</span>
+                      </p>
+                         <p class="p4">
+                            <span>申请时间：</span>
+                            <span>2016-10-31 17:31:50</span>
+                      </p>
+
+                         <p class="p5">
+                            <span>退货状态：</span>
+                            <span>待审核</span>
+                      </p>
+                         <p class="p6">
+                            <span>审核说明：</span>
+                            <span>xxxxxxxxx</span>
+                      </p>
+                         <p class="p7">
+                            <span>退货成功时间：</span>
+                            <span>2016-10-31 17:31:50</span>
+                      </p>
+                         <p class="p8">
+                            <span>返回列表</span>
+                        </p>
             </div>
-            <p class="p2">
-                 <span ><span class="font_hotred">*</span>补充说明：</span>
-            </p>
+
         </div>
     </div>
-    <div class="banner"></div>
-    <div class="bottom1">
+    <div class="bottom1   bg_bottom"  style="margin-top: 80px;">
         <div class="sf-mid-cont">
             <div class="bt1_ct">
                 <img src="img/bt1.png" alt="">
@@ -324,7 +348,7 @@
 
         </div>
     </div>
-    <div class="bottom2">
+    <div class="bottom2  bg_bottom">
         <img src="img/bt_line2.png" alt="">
         <p class="p1 btp1">
             Copyright © 2014 hg365.com All Rights Reserved 浙江汇购科技股份有限公司 版权所
@@ -354,5 +378,10 @@
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+
+
+    </script>
 </html>

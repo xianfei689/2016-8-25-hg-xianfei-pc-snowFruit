@@ -61,6 +61,16 @@ ul li
 {
     list-style: none;
 }
+
+
+/* 不让选择文字 */
+html,body{
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+
+
 .fn_none
 {
     display: none;
