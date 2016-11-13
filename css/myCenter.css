@@ -29,11 +29,10 @@
 
     width: 1000px;
 
-    border: 1px solid #dedede;
 }
 .ct2_right .ct2_main1
 {
-    width: 100%;
+    width: 998px;
     height: 203px;
 
     border: 1px solid #dedede;
@@ -423,7 +422,6 @@ input
     font-size: 14px;
     line-height: 34px;
 
-    width: 100%;
     height: 34px;
 
     text-align: center;
@@ -437,7 +435,6 @@ input
     font-size: 12px;
     line-height: 43px;
 
-    width: 100%;
     height: 43px;
 
     text-align: center;
@@ -525,6 +522,9 @@ input
     color: #fff;
     border: 1px solid #fff;
     background-color: #3c6;
+}
+.ct2_right5,.ct2_right6,.ct2_right8,.ct2_right7{
+    border: 1px solid #dedede;
 }
 .ct2_right5 .p_head
 {
@@ -808,3 +808,103 @@ input
     box-sizing: border-box;
 }
 
+.cont2    .grade{
+    float: right;
+    width: 1000px;
+    height: 240px;
+    border: 1px solid #dedede;
+}
+.grade  .p2{
+    color: #454545;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 52px;
+}
+.grade .font_red1{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 14px;
+}
+.grade  .gradeLine{
+        display: inline-block;
+        margin-left: 52px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+}
+.grade  .vip0{
+    display: inline-block;
+    margin-left: 52px;
+}
+.grade  .vip1{
+    display: inline-block;
+    margin-left: 126px;
+}
+
+.grade  .vip2{
+    display: inline-block;
+    margin-left: 125px;
+}
+
+.grade  .vip3{
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.grade  .vip4{
+    display: inline-block;
+    margin-left: 116px;
+}
+
+.grade  .vip5{
+    display: inline-block;
+    margin-left: 117px;
+}
+
+.grade  .vip6{
+    display: inline-block;
+    margin-left: 109px;
+}
+.cont2    .grade1{
+    float: right;
+    width: 1000px;
+    margin-top: 20px;
+}
+.grade1  .titile{
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+    text-align: center;
+    color: #454545;
+    border: 1px solid #dedede;
+    background-color: #f9f9f9;
+}
+.grade1 li {
+    display: inline-block;
+    float: left;
+}
+.grade1 .li1{
+        width: 361px;
+}
+.grade1 .li2{
+        width: 265px;
+}
+.grade1 .li3{
+        width: 140px;
+        color: #fe7474;
+}
+.grade1 .li4{
+        width: 232px;
+}
+.grade1  .cont{
+    font-size: 12px;
+    line-height: 43px;
+    height: 43px;
+    text-align: center;
+    color: #454545;
+    border: 1px solid #dedede;
+    border-top: none;
+}
+.grade1 .font_green2
+{
+    color: #3c6;
+}
