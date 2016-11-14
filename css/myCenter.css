@@ -377,6 +377,7 @@ input
     text-align: left;
 
     border: 1px solid #dedede;
+    box-sizing: border-box;
 }
 .ct2_right3  .sp1
 {
@@ -400,7 +401,7 @@ input
     display: inline-block;
 
     margin-right: 18px;
-    margin-left: 97px;
+    margin-left: 94px;
 }
 .ct2_right3  .sp4
 {
@@ -907,4 +908,16 @@ input
 .grade1 .font_green2
 {
     color: #3c6;
+}
+.absolute_right{
+    position: absolute;
+    top: 252px;
+    right: 122px;
+}
+.ct2_right3  .order_status{
+    display: inline-block;
+    margin-left: 94px;
+}
+.ct2_right3  .order_search{
+    margin-left: 25px;
 }
