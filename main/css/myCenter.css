@@ -7,7 +7,7 @@
 {
     overflow: hidden;
 
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .cont2 .ct2_left
 {
@@ -920,4 +920,245 @@ input
 }
 .ct2_right3  .order_search{
     margin-left: 25px;
+}
+.cont2 .order_main{
+    float: right;
+    width: 1000px;
+    margin-top: 20px;
+        border: 1px solid #dedede;
+}
+.order_main .titile {
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+    text-align: center;
+    color: #454545;
+    background-color: #f9f9f9;
+}
+.order_main .li1 {
+    float: left;
+    text-indent: 170px;
+}
+.order_main .li2 {
+    text-indent: 280px;
+    float: left;
+}
+.order_main .li3 {
+    float: left;
+     text-indent: 90px;
+}
+.order_main .li4 {
+     float: left;
+      text-indent: 90px;
+}
+.order_main .li5 {
+     float: left;
+      text-indent: 90px;
+}
+.order_main .contsp1{
+    height: 30px;
+    line-height: 30px;
+    color: #454545;
+    font-size: 12px;
+
+}
+
+.order_main .contsp1 .li1{
+    float: left;
+    text-indent: 30px;
+}
+.order_main .contsp1 .li2{
+    float: left;
+    text-indent: 70px;
+}
+.order_main .contsp1 .li3{
+    float: left;
+    text-indent: 511px;
+}
+.order_main .contsp2 .li1{
+    float: left;
+    text-indent: 30px;
+}
+.order_main .contsp2{
+    background-color: #F9F9F9;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.order_main .contsp2 .li2{
+    float: left;
+    text-indent: 0;
+    width: 255px;
+    margin-left: 20px;
+}
+.order_main .contsp2 .li2 .font_desc1{
+    margin-bottom: 18px;
+    display: inline-block;
+}
+.order_main .contsp2 .li3{
+    float: left;
+    font-size: 14px;
+    color: #454545;
+    width: 37px;
+    overflow: hidden;
+    text-indent: 0;
+    text-align: center;
+    margin-left: 90px;
+}
+.order_main .contsp2 .li4{
+       float: left;
+    font-size: 14px;
+    color: #454545;
+    width: 88px;
+    overflow: hidden;
+    text-indent: 0;
+    text-align: center;
+    margin-left: 68px;
+
+}
+.order_main .contsp2 .li5{
+    float: left;
+    text-indent: 0;
+            font-size: 14px;
+    color: #454545;
+    margin-left: 74px;
+}
+.order_main .fastpay{
+    color: #fff;
+    font-size: 14px;
+    background-color: #FE7474;
+width: 90px;
+height: 30px;
+display: inline-block;
+text-align: center;
+line-height: 30px;
+position: relative;
+bottom: 6px;
+right: 9px;
+}
+.order_main .contsp2 .font_gray{
+    color: #999;
+}
+.order_main .contsp2 .li6{
+    float: right;
+    font-size: 14px;
+    color: #454545;
+    display: inline-block;
+    margin-right: 64px;
+
+}
+
+.cont2 .addrCont {
+    float: right;
+    width: 1000px;
+    height: 133px;
+    border: 1px solid #dedede;
+}
+.addrCont  .add_addr{
+    color: #fff;
+    font-size: 14px;
+    width: 90px;
+    display: inline-block;
+    background-color: #33CC66;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 15px;
+
+}
+.cont2 .addrMain {
+            border: 1px solid #dedede;
+            color: #454545;
+            font-size: 14px;
+                margin-top: 20px;
+}
+
+.cont2  .addrMain .p_head .defaultspan{
+    color: #fff;
+    width: 64px;height: 15px;
+    background-color: #33CC66;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    display: none;
+}
+.cont2  .addrMain .p_head a{
+    color: #dedede;
+    font-size: 32px;
+    float: right;
+    display: inline-block;
+    width: 30px;height: 30px;
+        position: relative;
+    bottom: 18px;
+    right: 4px;
+}
+.addrMain  .addrOne span:nth-child(1){
+    width: 117px;
+    text-align: right;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.addrMain  .addrOne span:nth-child(2){
+    width: 664px;
+    display: inline-block;
+}
+.addrMain  .defaultImg{
+        display: inline-block;
+    margin-left: 11px;
+    margin-right: 3px;
+}
+.addrMain  .addr5{
+    margin-bottom: 35px;
+}
+.addrMain  .cursor{
+    cursor: pointer;
+}
+.cont2  .addrMain .p_head   .fn_show{
+    display: inline-block;
+}
+.cont2  .addrMain{
+        float: right;
+    width: 1000px;
+    border: 1px solid #dede de;
+}
+.cont2  .infoMain{
+
+
+}
+.infoMain .infoCont{
+     border: 1px solid #dedede;
+     width: 998px;
+}
+.infoMain .li1{
+    float: left;
+    margin-left: 33px;
+    margin-right: 20px;
+}
+.infoMain .li2{
+    width: 886px;
+    float: left;
+    border-bottom: 1px dashed  #dedede;
+}
+.infoMain .info1{
+        width: 762px;
+    display: inline-block;
+}
+.infoMain  .mainInfo{
+    width: 882px;
+    display: inline-block;
+    background-color: #F6F6F6;
+    color: #999;
+    font-size: 14px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+.infoMain  .info_showmore{
+    float: right;
+    color: #454545;
+    font-size: 14px;
 }

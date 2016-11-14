@@ -1,0 +1,84 @@
+/**
+ *@date: 2016-10-31T09:11:57+0800;
+ *@desc:rest css;
+ */
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+optgroup,
+p,
+blockquote,
+figure,
+hr,
+menu,
+dir,
+thead,
+tbody,
+tfoot,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+}
+a,
+label
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #757575;
+}
+i,
+cite,
+em,
+var,
+address,
+dfn
+{
+    font-style: normal;
+}
+ul li
+{
+    list-style: none;
+}
+.fn_none
+{
+    display: none;
+}
+.fn_unvis
+{
+    visibility: hidden;
+}
+.fn_show
+{
+    display: block;
+    visibility: visible;
+}
+.fn_right
+{
+    float: right;
+}
+.fn_left
+{
+    float: left;
+}

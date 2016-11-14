@@ -1,0 +1,178 @@
+html,body{width:100%;}
+.wrap{font-family: "微软雅黑";width: 100%;height: 1100px;margin:0 auto;}
+.headwrap{width:100%;height:90px;border-bottom: 1px solid #dedede;}
+.head{position: relative;top: 0;left: 0;width:1200px;height:89px;margin: 0 auto;}
+.left,.right{width:250px;height:100%;}
+.left{position: absolute;left: 0;}
+.right{position: absolute;right:0;font-size:16px;}
+.right a{color: black;}
+.left div{width: 70px;height:70px;background: url(../img/icon.png) 0px 0px no-repeat;display: inline-block;  }
+.left span{left: 120px;font-size: 20px;position:absolute;  top:32px;}
+.body{width:100%;min-width: 1200px;height:600px;background: #f0f0f0;position: relative;top:0;left:0;  }
+.loginwrap {width: 1200px;height: 520px;position: absolute;top: 40px;left: 50%;margin-left: -600px;overflow: hidden;
+    -webkit-box-shadow: #dbdbdb 0px 0px 10px;
+    -moz-box-shadow: #dbdbdb 0px 0px 10px;
+    box-shadow: #dbdbdb 0px 0px 10px;
+    background: #fff;
+    behavior: url(/PIE.htc);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=0, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=90, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=180, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=270, Strength=5);
+}
+.login{width:320px;height:460px;margin: 0 auto;}
+.login_bj{margin-top: 30px;width:320px;height:84px;background: url(../img/icon.png) -85px 0 no-repeat;}
+.user_name{width:100%;margin-top: 50px;position: relative;top:0;left:0;}
+.user_name_error{position:absolute;top:-24px;right:0;width:268px;font-size: 10px;color:#ff0000;border: 1px solid #ff4545;line-height: 20px;display: none;}
+.user_name_format{width:320px;font-size: 12px;color: #999999;line-height: 38px;position: absolute;left:340px;}
+.pass_word,.yzm{width: 100%;margin-top: 20px;position: relative;top:0;left:0;}
+.user_name span{float:left;width:50px;height:40px;background: url(../img/icon.png) -411px 0 no-repeat}
+.user_name input,.pass_word input{float:right;width:247px;padding: 11px 0 12px 21px;border: 1px solid #b2b2b2;}
+.pass_word span{float:left;width:50px;height:40px;background: url(../img/icon.png) -455px 0 no-repeat}
+.pass_word_format{width:320px;font-size: 12px;color: #999999;line-height: 38px;position: absolute;left:340px;}
+.yzm input{width:108px;padding: 11px 0 12px 21px;border: 1px solid #b2b2b2;}
+.yzm span{float:left;width:50px;height:40px;background: url(../img/icon.png) -497px 0 no-repeat}
+.yzm div{float:right;width:118px;height:38px;border:1px solid #b2b2b2;}
+.yzm img{width: 100%;height:100%;}
+.barter{width:100px;margin-top: 5px;margin-left:220px;text-align: right;font-size: 12px;color: #a1a1a1; cursor:pointer;}
+.login_code{width:320px;height:50px;margin-top: 37px;}
+.forget{width: 100%;text-align: right;margin-top: 10px;}
+.forget a{width:100px;color: #353535;font-size: 12px;}
+/*注册样式*/
+.register_wrap{width:500px;height:620px;margin: 0 auto;}
+.body_zhuce{width:100%;min-width: 1200px;height:700px;background: #f0f0f0;position: relative;top:0;left:0;  }
+.loginwrap_zhuce {width: 1200px;height: 620px;position: absolute;top: 40px;left: 50%;margin-left: -600px;overflow: hidden;
+    -webkit-box-shadow: #dbdbdb 0px 0px 10px;
+    -moz-box-shadow: #dbdbdb 0px 0px 10px;
+    box-shadow: #dbdbdb 0px 0px 10px;
+    background: #fff;
+    behavior: url(/PIE.htc);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=0, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=90, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=180, Strength=5) progid:DXImageTransform.Microsoft.Shadow(color='#dbdbdb', Direction=270, Strength=5);}
+.register_news{width:100%;height:50px;text-align:center;background: #f4f4f4;}
+.number{width:100%;margin-top:60px;position: relative;top:0;left:0;}
+.number span,.pass span,.newpass span{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -538px 0 no-repeat}
+.number input,.pass input,.newpass input{width:308px;padding: 11px 0 13px 50px;border: 1px solid #b2b2b2;}
+.register{width:360px;height:460px;margin: 0 auto;}
+.yanzheng{width: 100%;margin-top: 30px;position: relative;top:0;left:0;}
+.yanzheng span{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -576px 0 no-repeat}
+.yanzheng input,.duanxin_ma input{width:168px;padding: 11px 0 13px 50px;border: 1px solid #b2b2b2;}
+.number_format,.yanzheng_format{width:320px;font-size: 12px;color: #999999;line-height: 38px;position: absolute;top:0;left:380px;}
+.yanzheng div,.duanxin_ma div{width:118px;height:38px;position: absolute;top:0;right:0;}
+.duanxin_ma{width:100%;margin-top: 30px;position: relative;top:0;left:0;}
+.duanxin_ma span{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -616px 0 no-repeat}
+.huoqu{border:1px solid #33cc66;background:#deffe9;text-align: center;font-size: 12px;color: #33cc66;line-height: 38px; cursor:pointer;}
+.huoqu0{border:1px solid #33cc66;background:#deffe9;text-align: center;font-size: 12px;color: #33cc66;line-height: 38px; cursor:pointer;}
+.huoqu1{border:1px solid #dedede;background:#f0f0f0;text-align: center;font-size: 12px;color: #a6a6a6;line-height: 38px; cursor:pointer;}
+.pass,.newpass{width:100%;margin-top:30px;position: relative;top:0;left:0;}
+.agree{font-size: 12px;position: relative;top:40px;left:0;}
+.agree input{margin-right: 9px;line-height: 18px;position:relative;top:2px;}
+.agree a{color: #33cc66;}
+.submit_code{width:360px;height:50px;margin-top: 53px;cursor:pointer;}
+
+/*进入会员中心样式*/
+.register_over{width:500px;height:620px;margin: 0 auto;}
+.register_overh{width:100%;height:50px;text-align:center;background: #f4f4f4;}
+.gongxi{text-align: center;padding-top: 47px;}
+.agree_over{font-size: 14px;text-align: center;margin-top: 32px;}
+.submit_code_over{width:430px;height:50px;margin-top: 53px;}
+.guang{font-size: 14px;color: #33cc66;margin-left: 20px;border-bottom:1px solid #33CC66; }
+
+
+
+
+
+/*忘记密码样式*/
+.yonghu{width:100%;height:26px;margin-top:60px;position: relative;top:0;left:0;font-size: 16px;overflow: hidden;}
+.radiol{position: absolute;left:0;}
+.radior{position: absolute;left:203px;}
+.radiol img,.radior img{width:16px;height:16px;position: absolute;top:5px;}
+#number{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -411px 0 no-repeat}
+.tijiao_code{width:360px;height:50px;margin-top: 60px;cursor:pointer;}
+.forget2_img{width:100%;margin-top:50px;}
+.forget2_img img{margin-left: 209px;}
+
+
+/*忘记密码样式2*/
+.email{font-size: 16px;margin-left: 18px;margin-top: 40px;}
+.register2{width:486px;height:460px;margin: 0 auto;letter-spacing:1px;}
+.email1{margin-left: 18px;font-size: 14px;line-height: 40px;}
+.email1 strong{font-size:16px;}
+.email2{font-size: 14px;line-height:36px;margin-top: 13px;}
+.email2 span{display:inline-block;border:4px solid #ffc600;border-radius:4px;margin-right: 10px;}
+.email3{margin-left:18px;font-size: 14px;}
+.email3 a{border-bottom: 1px solid #4799ef;color: #4799ef;}
+.email4{margin-left:18px;font-size: 14px;line-height:36px;}
+.email4 span{color:#33cc66;}
+
+
+/*忘记密码样式3*/
+
+.pass_forget3,.newpass_forget3{width:100%;margin-top:30px;position: relative;top:0;left:0;}
+.pass_forget3 input,.newpass_forget3 input{width:308px;padding: 11px 0 13px 50px;border: 1px solid #b2b2b2;}
+.pass_forget3 span{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -661px 0 no-repeat;}
+.newpass_forget3 span{position:absolute;top:0;left:0;width:38px;height:38px;background: url(../img/icon.png) -703px 0 no-repeat}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

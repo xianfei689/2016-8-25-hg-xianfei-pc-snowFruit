@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="css/restPc.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/myCenter.css">
+    <style type="text/css"></style>
+<body>
+    <div class="head1">
+        <div class="sf-mid-cont">
+            <div class="head1_leftct" style="display: none">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+            </div>
+            <span class="head1rct1_login ">
+                <span id="name" class="hd_name">admin</span>
+                <a href="#">退出</a>
+            </span>
+            <span class="head1rct3">
+                <a class="message">消息</a>
+            </span>
+            <div class="head1_rightct">
+                <a href="">我的订单</a>
+                <span>|</span>
+                <a href="">卖家中心</a>
+                <span>|</span>
+                <a href="">收藏夹</a>
+                <span>|</span>
+                <a href="">网站导航</a>
+            </div>
+        </div>
+    </div>
+    <div class="head2">
+        <div class="sf-mid-cont">
+            <div class="head2ct1">
+                <img src="img/snow.png" ></div>
+            <div class="head2ct2 " style="display: none">
+                <img src="img/milk.png" ></div>
+            <div class="search head2ct3">
+                <form action="" id="searchForm" name="query"  >
+                    <input type="text" placeholder="请输入商品名称搜索" id="keyword" name="keyword" onkeydown="javascript:if(event.keyCode==13) search_keys('searchForm');" autocomplete="off">
+                    <a class="h2serach" href="sfSearch.html">搜索</a>
+                    <br/>
+                    <div id="hot_search">
+                        <span class="hs1">热门搜索：</span>
+                        <a>牛奶</a>
+                        <span>|</span>
+                        <a>核桃</a>
+                        <span>|</span>
+                        <a>冬虫夏草</a>
+                    </div>
+                </form>
+            </div>
+            <div class="head2ct4">
+                <span id="shoppingCar">
+                    <a id="num">9</a>
+                </span>
+                <span class="total">
+                    ¥
+                    <a id="totalMoney">1950.00</a>
+                    ∨
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="head3">
+        <div class="sf-mid-cont">
+            <span class="h3ct h3ct1">所有商品分类</span>
+            <span class="h3ct h3ct2 " onclick="window.location.href='snowFruitLogin.html'">首页</span>
+            <span class="h3ct h3ct3" onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
+            <span class="h3ct h3ct4" onclick="window.location.href='propGift.html'">自营礼品</span>
+            <span class="h3ct h3ct5" onclick="window.location.href='sfPrefecture.html'">活动专区</span>
+            <span class="h3ct h3ct6 " onclick="window.location.href='store.html'" >商铺</span>
+        </div>
+    </div>
+
+    <div class="cont1">
+        <div class="sf-mid-cont font_desc">
+            <a href="snowFruitLogin.html">首页</a>
+            &gt;
+            <a href="#">个人中心</a>
+            <a href=""></a>
+        </div>
+    </div>
+
+    <div class="cont2">
+        <div class="sf-mid-cont">
+            <div class="ct2_left">
+                <p class="change  font_desc bottom_style"  onclick="window.location.href='myCenter.html'">
+                    <span class="round  "></span>
+                    我的主页
+                </p>
+                <p class="font_desc ">交易管理</p>
+                <p class="change font_del3 mt_12  ">
+                    <span class="round  "></span>
+                    我的订单
+                </p>
+                <p class="change font_del3 mt_12">
+                    <span class="round  "></span>
+                    我的收藏
+                </p>
+                <p class="change font_del3 mt_12 bottom_style">
+                    <span class="round  "></span>
+                    我的等级
+                </p>
+
+                <p class="font_desc">售后服务</p>
+                <p class="change font_del3 mt_12 ">
+                    <span class="round  "></span>
+                    退货管理
+                </p>
+                <p class="change font_del3 mt_12 ">
+                    <span class="round  "></span>
+                    换货管理
+                </p>
+                <p class="change font_del3 mt_12  bottom_style">
+                    <span class="round  "></span>
+                    退款管理
+                </p>
+
+                <p class="font_desc">资料管理</p>
+                <p class="change font_del3 mt_12 ">
+                    <span class="round  "></span>
+                    个人资料
+                </p>
+                <p class="change font_del3 mt_12">
+                    <span class="round  "></span>
+                    员工认证
+                </p>
+                <p class="change font_del3 mt_12">
+                    <span class="round  "></span>
+                    修改密码
+                </p>
+                <p class="change font_del3 mt_12 current">
+                    <span class="round  current_white"></span>
+                    收货地址
+                </p>
+
+            </div>
+            <div class="ct2_right  addrCont">
+                <p class="p1 font_desc  p_head">收货地址</p>
+                <p class="show_addr">
+                         <a class="add_addr">新增地址</a>
+                         <span>
+                                您已创建<i class="font_green2">2</i> 个收货地址，最多可创建<i class="font_green2">20</i>个
+                         </span>
+                </p>
+            </div>
+
+            <div class="ct2_right  addrMain">
+                        <p class="p1 font_desc  p_head">
+                            <span>xxx</span>
+                            <span class="defaultspan">默认地址</span>
+                            <a  >×</a>
+                        </p>
+                        <p class="addr1 addrOne">
+                            <span>收货人：</span>
+                            <span>陈旭源</span>
+                        </p>
+                        <p class="addr2 addrOne">
+                            <span>所在地区：</span>
+                            <span>陈旭源</span>
+                        </p>
+                        <p class="addr3 addrOne">
+                             <span>详细地址：</span>
+                            <span>滨盛路通和路口银丰大厦810室</span>
+                        </p>
+                        <p class="addr4 addrOne">
+                             <span>手机号码：</span>
+                            <span>18758964587</span>
+                        </p>
+                        <p class="addr5 addrOne">
+                                <span>固定电话：</span>
+                            <span>0571-65478962</span>
+
+                            <span class="default font_del3  cursor">设为默认地址</span>
+                            <img src="img/myCenter/pan.png" alt="" class="defaultImg cursor">
+                            <span class="cursor">编辑</span>
+                        </p>
+
+
+                         <p class="p1 font_desc  p_head">
+                            <span>陈旭源</span>
+                            <span class=" defaultspan   fn_show">默认地址</span>
+                            <a  >×</a>
+                        </p>
+                        <p class="addr1 addrOne">
+                            <span>收货人：</span>
+                            <span>陈旭源</span>
+                        </p>
+                        <p class="addr2 addrOne">
+                            <span>所在地区：</span>
+                            <span>陈旭源</span>
+                        </p>
+                        <p class="addr3 addrOne">
+                             <span>详细地址：</span>
+                            <span>滨盛路通和路口银丰大厦810室</span>
+                        </p>
+                        <p class="addr4 addrOne">
+                             <span>手机号码：</span>
+                            <span>18758964587</span>
+                        </p>
+                        <p class="addr5 addrOne">
+                                <span>固定电话：</span>
+                            <span>0571-65478962</span>
+
+                            <span class="default font_del3">设为默认地址</span>
+                            <img src="img/myCenter/pan.png" alt="" class="defaultImg">
+                            <span class="">编辑</span>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom1 bg_bottom">
+        <div class="sf-mid-cont">
+            <div class="bt1_ct">
+                <img src="img/bt1.png" alt="">
+                <img src="img/bt2.png" alt="">
+                <img src="img/bt3.png" alt="">
+                <img src="img/bt4.png" alt=""></div>
+            <img src="img/bt_line1.png" alt="" class="bt_line1">
+            <div class="bt1_ct1  ">
+                <div class="bt1_v">
+                    <p class="font_desc">购物指南</p>
+                    <p class="font_del2">购物流程</p>
+                    <p class="font_del2">会员介绍</p>
+                    <p class="font_del2">常见问题</p>
+                </div>
+                <div class="bt1_v">
+                    <p class="font_desc">配送服务</p>
+                    <p class="font_del2">配送政策</p>
+                    <p class="font_del2">配送运费</p>
+                    <p class="font_del2">配送范围</p>
+                </div>
+                <div class="bt1_v">
+                    <p class="font_desc">支付方式</p>
+                    <p class="font_del2">在线支付</p>
+                    <p class="font_del2">公司转账</p>
+                    <p class="font_del2">发票制度</p>
+                </div>
+                <div class="bt1_v">
+                    <p class="font_desc">售后服务</p>
+                    <p class="font_del2">退款说明</p>
+                    <p class="font_del2">退换流程</p>
+                    <p class="font_del2">隐私条款</p>
+                </div>
+                <div class="bt1_v">
+                    <p class="font_desc">商家服务</p>
+                    <p class="font_del2">商家入驻</p>
+                    <p class="font_del2">平台规划</p>
+                    <p class="font_del2">运营服务</p>
+                </div>
+                <div class="bt1_v">
+                    <p class="font_desc">特色服务</p>
+                    <p class="font_del2">鲜果预约</p>
+                    <p class="font_del2">游戏礼包</p>
+                    <p class="font_del2">私人定制</p>
+                </div>
+                <div class="bt1_v1">
+                    <p class="font_desc">手机客户端</p>
+                    <p>
+                        <img src="img/code1.png" alt=""></p>
+                </div>
+                <div class="bt1_v1">
+                    <p class="font_desc">官方微信</p>
+                    <p>
+                        <img src="img/code2.png" alt=""></p>
+                </div>
+                <div class="bt1_v2">
+                    <p class="font_desc">全国热线服务</p>
+                    <p class="font_desc3">400-6660-229</p>
+                    <p class="font_del2">人工服务时间：周一至周五9:00-18:00</p>
+                    <p class="img">
+                        <img src="img/qq.png" alt=""></p>
+                </div>
+            </div>
+            <div class="bt1_ct2 ">
+                <p> <i class="font_desc2">友情链接：</i>
+                    <a href="" class="font_del2">鲜果网</a>
+                    <a href="" class="font_del2">沱沱公社</a>
+                    <a href="" class="font_del2">鲜果网</a>
+                    <a href="" class="font_del2">沱沱公社</a>
+                </p>
+                <p> <i class="font_desc2">关于我们  |</i>
+                    <i class="font_desc2">联系我们  |</i>
+                    <i class="font_desc2">服务条款</i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom2 bg_bottom">
+        <img src="img/bt_line2.png" alt="">
+        <p class="p1 btp1">
+            Copyright © 2014 hg365.com All Rights Reserved 浙江汇购科技股份有限公司 版权所
+        </p>
+        <p class="p1 btp2">浙ICP备案号：浙B2-20090284-1</p>
+    </div>
+</body>
+    <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="lib/date/Calendar.js"></script>
+    <script src="lib/Rose/1.0.0/Rose.src.js"></script>
+    <script type="text/javascript">
+
+            //搜索条件重置
+            function resetInput(){
+                    $("#exchangeId").val("")
+                    $("#startTime").val("")
+                    $("#endTime").val("")
+                    $("#exhangeStatue").val("请选择")
+                    $("#exhangeStatue1").val("请选择")
+            }
+
+    </script>
+</html>
