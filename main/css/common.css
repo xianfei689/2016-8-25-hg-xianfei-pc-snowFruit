@@ -707,3 +707,7 @@ li
 .bg_bottom{
     background-color: #F8F8F8;
 }
+
+input{
+    border: 1px solid #dedede;
+}
