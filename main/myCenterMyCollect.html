@@ -93,7 +93,7 @@
                 <p class="change  font_desc bottom_style"><span class="round  active"></span>我的主页</p>
                 <p class="font_desc ">  交易管理</p>
                 <p class="change font_del3 mt_12"> <span class="round  "></span> 我的订单</p>
-                <p class="change font_del3 mt_12"> <span class="round  "></span> 我的收藏</p>
+                <p class="change font_del3 mt_12 current"> <span class="round  current_white"></span> 我的收藏</p>
                 <p class="change font_del3 mt_12 bottom_style" onclick="window.location.href='myCenterMyGrade.html'"> <span class="round  "></span> 我的等级</p>
 
                 <p class="font_desc">  售后服务</p>
@@ -109,38 +109,50 @@
 
             </div>
             <div class="ct2_right" style="border: none;">
-                <div class="ct2_main1">
-                    <p>我的主页</p>
+                <div class="  myCollect">
+                    <p>分类筛选</p>
                     <ul>
                         <li class="li1">
-                            <img src="img/myCenter/head.png" alt=""></li>
-                        <li class="li2">
-                            <div class="div1">
-                                <span>
-                                    尊敬的 <b class="font_red2">czh123</b>
-                                    ，欢迎来到您的个人中心
-                                </span>
-                                <img src="img/myCenter/info.png" alt="" class="info">
-                                <span class="info1" onclick="window.location.href='myCenterInfomation.html'">消息</span>
-                            </div>
-                            <div class="div2">
-                                <span>您的会员等级：</span>
-                                <img src="img/myCenter/vip.png" alt="" >
-                                <span class="vip">白金会员</span> <b class="font_red2 ">查看会员等级</b>
-                            </div>
+                                <span >全部分类</span>
                         </li>
-                        <li class="li3">
-                            <img src="img/myCenter/topay.png" alt=""></li>
-                        <li class="li4">
-                            <img src="img/myCenter/topay1.png" alt=""></li>
-                        <li class="li5">
-                            <img src="img/myCenter/topay2.png" alt=""></li>
+                        <li class="li2">
+                                <span class="sortOne"><i class="name">南航里程</i>(<i class="num">1110</i>)</span>
+                                <span class="sortOne"><i class="name">旅游产品</i>(<i class="num">500</i>)</span>
+                                <span class="sortOne"><i class="name">居家生活</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">热门爆款</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">甜品饮料</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">节日鲜花</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">绿色产品</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">绿色产品</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">旅游产品</i>(<i class="num">8</i>)</span>
+                                <span class="sortOne"><i class="name">个护化妆</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">清洁用品</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">医药保健</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">服装鞋包</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">男士用品</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">手机通讯</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">时装达人</i>(<i class="num">88</i>)</span>
+                        </li>
                     </ul>
+                    <ul>
+                        <li class="li1">
+                                <span >特价分类</span>
+                        </li>
+                        <li class="li2">
+                                <span class="sortOne"><i class="name">南航里程</i>(<i class="num">10</i>)</span>
+                                <span class="sortOne"><i class="name">旅游产品</i>(<i class="num">5</i>)</span>
+                                <span class="sortOne"><i class="name">居家生活</i>(<i class="num">88</i>)</span>
+                                <span class="sortOne"><i class="name">热门爆款</i>(<i class="num">88</i>)</span>
+                        </li>
+                    </ul>
+                    <p class="p_goods">
+                        <input type="checkbox" name="" id="checkAllGoods">
+                        <label for="checkAllGoods">全选</label>
+                        <span id="del_goods"><img src="img/myCenter/del.png" alt=""></span>
+                        <label for="del_goods" class="delMsg">删除</label>
+                    </p>
                 </div>
                 <div class="ct2_main2">
-                    <p class="p1">
-                        <span class="font_desc">我收藏的商品</span>
-                        <img src="img/myCenter/change.png" alt="" class=""></p>
 
                     <ul  class="ct2_ul1">
                         <li>
@@ -204,74 +216,8 @@
         </div>
     </div>
 
-    <div class="cont4">
-        <div class="sf-mid-cont font_desc">最近浏览过的商品</div>
-    </div>
 
-    <div class="cont5">
-        <div class="sf-mid-cont font_desc">
 
-            <ul>
-                <li>
-                    <div class="gimg">
-                        <img src="img/search/icon4.png"></div>
-                    <div class="f1title">
-                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
-                    </div>
-                    <div class="f1price">
-                        <b class="font_red2">￥59</b>
-                        <del class="font_del2 fn_hid">¥280.00</del>
-                    </div>
-                </li>
-                <li>
-                    <div class="gimg">
-                        <img src="img/search/icon4.png"></div>
-                    <div class="f1title">
-                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
-                    </div>
-                    <div class="f1price">
-                        <b class="font_red2">￥59</b>
-                        <del class="font_del2 fn_hid">¥280.00</del>
-                    </div>
-                </li>
-                <li>
-                    <div class="gimg">
-                        <img src="img/search/icon4.png"></div>
-                    <div class="f1title">
-                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
-                    </div>
-                    <div class="f1price">
-                        <b class="font_red2">￥59</b>
-                        <del class="font_del2 fn_hid">¥280.00</del>
-                    </div>
-                </li>
-                <li>
-                    <div class="gimg">
-                        <img src="img/search/icon4.png"></div>
-                    <div class="f1title">
-                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
-                    </div>
-                    <div class="f1price">
-                        <b class="font_red2">￥59</b>
-                        <del class="font_del2 fn_hid">¥280.00</del>
-                    </div>
-                </li>
-                <li>
-                    <div class="gimg">
-                        <img src="img/search/icon4.png"></div>
-                    <div class="f1title">
-                        <a href="#" class="font_desc1">海南三亚 新鲜澳芒 澳芒水果 黄皮澳芒 芒果包邮</a>
-                    </div>
-                    <div class="f1price">
-                        <b class="font_red2">￥59</b>
-                        <del class="font_del2 fn_hid">¥280.00</del>
-                    </div>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
 
     <div class="bottom1 bg_bottom"  style="margin-top: 80px;">
         <div class="sf-mid-cont">

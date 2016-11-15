@@ -1141,6 +1141,7 @@ right: 9px;
     width: 886px;
     float: left;
     border-bottom: 1px dashed  #dedede;
+    padding-bottom: 20px;
 }
 .infoMain .info1{
         width: 762px;
@@ -1156,9 +1157,83 @@ right: 9px;
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 9px;
+    display: none;
 }
 .infoMain  .info_showmore{
     float: right;
     color: #454545;
     font-size: 14px;
+        position: relative;
+    top: 10px;
+    left: 6px;
+    cursor: pointer;
+}
+.infoMain  .infoContOne{
+    padding-top: 18px;
+    width: 998px;
+}
+.infoMain  .infoContOne:hover{
+        background-color: #F6F6F6;
+}
+
+.infoContOne:last-child  .li2{
+    border-bottom: none;
+}
+.ct2_right .myCollect{
+        width: 998px;
+    height: 203px;
+    border: 1px solid #dedede;
+}
+.myCollect ul{
+    margin-top: 33px;
+}
+.myCollect .li1{
+    display: inline-block;
+    float: left;
+}
+.myCollect .li1 span{
+    width: 75px;
+    height: 24px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #33CC66;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+.myCollect .li2{
+    display: inline-block;
+    width: 850px;
+    font-size: 14px;
+    color: #454545;
+}
+.myCollect .sortOne{
+    display: inline-block;
+    width: 101px;
+}
+
+.myCollect  .p_goods{
+    text-align: right;
+}
+.p_goods label{
+    color: #454545;
+    font-size: 14px;
+}
+.p_goods .delMsg{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+#del_goods img{
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+    top: 3px;
+        cursor: pointer;
+}
+#checkAllGoods{
+    position: relative;
+    top: 3px;
 }
