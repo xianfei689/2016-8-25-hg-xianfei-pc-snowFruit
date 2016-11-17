@@ -448,6 +448,7 @@ input
     color: #454545;
     border: 1px solid #dedede;
     border-top: none;
+    overflow: hidden;
 }
 .ct2_right4 .li1
 {
@@ -474,6 +475,52 @@ input
 {
     width: 90px;
 }
+
+.refundCont .li1
+{
+    width: 155px;
+}
+.refundCont .li2
+{
+    width: 153px;
+
+}
+.refundCont .cont .li2{
+        position: relative;
+    bottom: 5px;
+}
+
+.refundCont .li2  p:nth-child(1)
+{
+        height: 15px;
+}
+.refundCont .li3
+{
+    width: 181px;
+}
+.refundCont .li4
+{
+    width: 143px;
+}
+.refundCont .li5
+{
+    width: 129px;
+
+}
+.refundCont .li6
+{
+    width: 112px;
+}
+.refundCont .li7
+{
+    width: 112px;
+}
+
+
+
+
+
+
 .ct2_right4 li
 {
     display: inline-block;
