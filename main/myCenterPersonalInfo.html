@@ -90,55 +90,25 @@
     <div class="cont2">
         <div class="sf-mid-cont">
             <div class="ct2_left">
-                <p class="change  font_desc bottom_style"  onclick="window.location.href='myCenter.html'">
-                    <span class="round  "></span>
-                    我的主页
-                </p>
-                <p class="font_desc ">交易管理</p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    我的订单
-                </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    我的收藏
-                </p>
-                <p class="change font_del3 mt_12 bottom_style">
-                    <span class="round  "></span>
-                    我的等级
-                </p>
+                <p class="change  font_desc bottom_style"><span class="round  "></span>我的主页</p>
+                <p class="font_desc ">  交易管理</p>
+                <p class="change font_del3 mt_12" onclick="window.location.href='myCenterMyOrder.html'"> <span class="round  "></span> 我的订单</p>
+                <p class="change font_del3 mt_12" onclick="window.location.href='myCenterMyCollect.html'"> <span class="round  "></span> 我的收藏</p>
+                <p class="change font_del3 mt_12 bottom_style" onclick="window.location.href='myCenterMyGrade.html'"> <span class="round  "></span> 我的等级</p>
 
-                <p class="font_desc">售后服务</p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    退货管理
-                </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    换货管理
-                </p>
-                <p class="change font_del3 mt_12  bottom_style">
-                    <span class="round  "></span>
-                    退款管理
-                </p>
+                <p class="font_desc">  售后服务</p>
+                <p class="change font_del3 mt_12"   onclick="window.location.href='myCenterGoodsRejected.html'"> <span class="round  "></span> 退货管理</p>
+                <p class="change font_del3 mt_12"  onclick="window.location.href='myCenterExchangeGoods.html'"> <span class="round  "></span> 换货管理</p>
+                <p class="change font_del3 mt_12  bottom_style" onclick="window.location.href='myCenterRefund.html'"> <span class="round  "></span> 退款管理</p>
 
                 <p class="font_desc">资料管理</p>
                 <p class="change font_del3 mt_12 current">
                     <span class="round  current_white"></span>
                     个人资料
                 </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    员工认证
-                </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    修改密码
-                </p>
-                <p class="change font_del3 mt_12">
-                    <span class="round  "></span>
-                    收货地址
-                </p>
+                <p class="change font_del3 mt_12" onclick="window.location.href='myCenterApprove.html'"> <span class="round  "></span> 员工认证</p>
+                <p class="change font_del3 mt_12" onclick="window.location.href='myCenterChangePwd.html'"> <span class="round  "></span> 修改密码</p>
+                <p class="change font_del3 mt_12"  onclick="window.location.href='myCenterReceivingAddress.html'"> <span class="round  "></span> 收货地址</p>
 
             </div>
             <div class="ct2_right  ct2_right1">
@@ -188,41 +158,41 @@
                     <label for="address " class="font_desc1 ct2_r1_left ">所在地址：</label>
                     <select id="provinceDiv" class="" onchange="loadCity()">
                         <option>请选择</option>
-                        <option value="110000">北京市</option>
-                        <option value="310000">上海市</option>
-                        <option value="120000">天津市</option>
-                        <option value="500000">重庆</option>
-                        <option value="130000">河北省</option>
-                        <option value="140000">山西省</option>
-                        <option value="410000">河南省</option>
-                        <option value="210000">辽宁省</option>
-                        <option value="220000">吉林省</option>
-                        <option value="230000">黑龙江省</option>
-                        <option value="150000">内蒙古</option>
-                        <option value="320000">江苏省</option>
-                        <option value="370000">山东省</option>
-                        <option value="340000">安徽省</option>
-                        <option value="330000">浙江省</option>
-                        <option value="350000">福建省</option>
-                        <option value="420000">湖北省</option>
-                        <option value="430000">湖南省</option>
-                        <option value="440000">广东省</option>
-                        <option value="450000">广西壮族</option>
-                        <option value="360000">江西省</option>
-                        <option value="510000">四川省</option>
-                        <option value="460000">海南省</option>
-                        <option value="520000">贵州省</option>
-                        <option value="530000">云南省</option>
-                        <option value="540000">西藏</option>
-                        <option value="610000">陕西省</option>
-                        <option value="620000">甘肃省</option>
-                        <option value="630000">青海省</option>
-                        <option value="640000">宁夏</option>
-                        <option value="650000">新疆</option>
-                        <option value="710000">台湾省</option>
-                        <option value="810000">香港</option>
-                        <option value="820000">澳门</option>
-                        <option value="990000">海外</option>
+                        <option value="北京市">北京市</option>
+                        <option value="上海市">上海市</option>
+                        <option value="天津市">天津市</option>
+                        <option value="重庆">重庆</option>
+                        <option value="河北省">河北省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="福建省">福建省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="广西壮族">广西壮族</option>
+                        <option value="江西省">江西省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="西藏">西藏</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="海外">海外</option>
                     </select>
                     <select id="cityDiv" class="sele" onchange="loadCounty()">
                         <option value="0">请选择</option>
@@ -341,10 +311,10 @@
                             var cityHtml = ''
                              cityData3.forEach(function(item) {
 
-                                        if (item.value==provinceId) {
+                                        if (item.text==provinceId) {
                                               var citys = item.children
                                               citys.forEach(function(city){
-                                                         cityHtml += '<option value="'+city.value+'" class="city">'+city.text+'</option>'
+                                                         cityHtml += '<option value="'+city.text+'" class="city">'+city.text+'</option>'
                                               })
                                               $("#cityDiv").append(cityHtml)
 
@@ -359,13 +329,13 @@
                         var  cityId = $("#cityDiv").val().trim()
                         var countyHtml = ''
                         cityData3.forEach(function(item) {
-                                        if (item.value==provinceId) {
+                                        if (item.text==provinceId) {
                                               var citys = item.children
                                               citys.forEach(function(city){
-                                                        if (city.value==cityId) {
+                                                        if (city.text==cityId) {
                                                                     var countys = city.children
                                                                     countys.forEach(function(county){
-                                                                         countyHtml +='<option value="'+county.value+'" class="county">'+county.text+'</option>'
+                                                                         countyHtml +='<option value="'+county.text+'" class="county">'+county.text+'</option>'
                                                                     })
                                                         }
                                               })
