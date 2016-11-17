@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/restPc.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/myCenter.css">
+    <link rel="stylesheet" type="text/css" href="lib/zui/popup/css/popup.css">
+
     <style type="text/css"></style>
 <body>
     <div class="head1">
@@ -144,7 +146,7 @@
             <div class="ct2_right  addrCont">
                 <p class="p1 font_desc  p_head">收货地址</p>
                 <p class="show_addr">
-                         <a class="add_addr">新增地址</a>
+                         <a class="add_addr" id="addAddress" onclick="addAddress()">新增地址</a>
                          <span>
                                 您已创建<i class="font_green2">2</i> 个收货地址，最多可创建<i class="font_green2">20</i>个
                          </span>
@@ -303,7 +305,8 @@
 </body>
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="lib/date/Calendar.js"></script>
-    <script src="lib/Rose/1.0.0/Rose.src.js"></script>
+    <script type="text/javascript" src="lib/zui/popup/js/city.data-3.js"></script>
+    <script type="text/javascript" src="lib/zui/popup/js/popup.js"></script>
     <script type="text/javascript">
 
             //搜索条件重置
@@ -314,6 +317,97 @@
                     $("#exhangeStatue").val("请选择")
                     $("#exhangeStatue1").val("请选择")
             }
+            //新增地址
+            function addAddress(){
 
+/**
+ *    整个网站的弹出控件都在这里  可以一个个 看
+ *
+ *      需要引用的依赖
+ *
+ *lib/zui/popup/js/city.data-3.js
+ *lib/zui/popup/css/popup.css
+ *lib/zui/popup/js/popup.js
+ *
+ *
+ *
+ *
+ */
+
+
+
+                //  所有弹出组件
+/*                var alertSuccess = new $.Popup({
+                    type:"alert",
+                    theme:"success",  // theme 对应图片的名字   success
+                    content:"点击弹出点东西111111点击弹出点东西111111点击弹出点东西111111",
+                    confirm:function(){
+                     console.log(11111111)
+                   },
+                 });*/
+
+                    //  所有弹出组件
+/*                var alertWarn = new $.Popup({
+                    type:"alert",
+                    theme:"warn",  // theme 对应图片的名字   success
+                    content:"点击弹出点东西111111点击弹出点东西111111点击弹出点东西111111",
+                    confirm:function(){
+                       alert("点击确认的回调函数")
+                   },
+                 });*/
+/*
+          var confirmWarn = new $.Popup({
+                    type:"confirm",
+                    theme:"warn",  // theme 对应图片的名字   success
+                    content:"点击弹出点东西111111点击弹出点东西111111点击弹出点东西111111",
+                        confirm:function(){
+                         alert("点击确认的回调函数")
+                       },
+                       cancel:function(){
+                            alert("点击取消的回调函数")
+                       }
+                 });*/
+
+/*           var confirmSuccess = new $.Popup({
+                    type:"confirm",
+                    theme:"success",  // theme 对应图片的名字   success
+                    content:"点击弹出点东西111111点击弹出点东西111111点击弹出点东西111111",
+                    confirm:function(){
+                         alert("点击确认的回调函数")
+                    },
+                       cancel:function(){
+                            alert("点击取消的回调函数")
+                       }
+                 });*/
+
+
+
+            var alertAddress = new $.Popup({
+                    type:"alertAddress",
+                    submit:function(){
+                                var addressData = {
+                                    "consigneeName":$("#consigneeName").val().trim(),
+                                    "province":$("#provinceDiv").val().trim(),
+                                    "city":$("#cityDiv").val().trim(),
+                                    "county":$("#countyDiv").val().trim(),
+                                    "addressDetail":$("#addressDetail").val().trim(),
+                                    "phone":$("#tel").val().trim(),
+                                    "homeTel":$("#homeTel").val().trim(),
+                                    "postcode":$("#postcode").val().trim(),
+                                }
+
+                                console.log(addressData)
+                                //xxxxxxxxxxxxx @数据处理操作
+
+
+                                //
+                                //     //记得这个要加    关闭弹出框
+                                alertAddress.close()
+                    },
+             });
+
+
+
+            }
     </script>
 </html>
