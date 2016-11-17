@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/restPc.css">
     <link rel="stylesheet" type="text/css" href="css/common.css"></head>
     <link rel="stylesheet" type="text/css" href="css/sfSearch.css"></head>
-
+        <link rel="stylesheet" type="text/css" href="css/snowFruit.css"></head>
     <style type="text/css"></style>
 <body>
     <div class="head1">
@@ -70,7 +70,7 @@
     </div>
     <div class="head3">
         <div class="sf-mid-cont">
-            <span class="h3ct h3ct1">所有商品分类</span>
+ <span class="h3ct h3ct1" id="allSort">所有商品分类</span>
             <span class="h3ct h3ct2 " onclick="window.location.href='snowFruitLogin.html'">首页</span>
             <span class="h3ct h3ct3 " onclick="window.location.href='scheduleFruit.html'">鲜果预定</span>
             <span class="h3ct h3ct4 active" onclick="window.location.href='propGift.html'">自营礼品</span>
@@ -78,6 +78,1078 @@
             <span class="h3ct h3ct6 " onclick="window.location.href='store.html'" >商铺</span>
         </div>
     </div>
+
+
+        <div class="content1 fn_none" id="content1">
+
+        <div class="sf-mid-cont">
+            <div class="shopSort">
+                <div class="shopct shopct1">
+                    <div>
+                        <p>雪山鲜果</p>
+                        <p>
+                            <span>阿克苏苹果</span>
+                            <span>库尔勒香梨</span>
+                            <span>哈密瓜</span>
+                        </p>
+                    </div>
+                    <div class="shoptct1_right    shoptct1_right0  sortRight" style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果11</p>
+                            <p class="st_t2"> <i>国产水果</i> <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="shopct shopct2">
+                    <div>
+                        <p>新疆干果</p>
+                        <p>
+                            <span>新疆巴旦木</span>
+                            <span>和田大枣</span>
+                            <span>纸皮核桃</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果22</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+
+                <div class="shopct shopct3">
+                    <div>
+                        <p>西域常饮</p>
+                        <p>
+                            <span>石榴酒</span>
+                            <span>恰玛古</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果33</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="shopct shopct4">
+                    <div>
+                        <p>肉禽蛋奶</p>
+                        <p>
+                            <span>柯坪羊肉</span>
+                            <span>牛腱肉</span>
+                            <span>青海老酸奶</span>
+
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: block; ">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果44</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="shopct shopct5">
+                    <div>
+                        <p>特色小吃</p>
+                        <p>
+                            <span>甘南牦牛肉干</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果55</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="shopct shopct6">
+                    <div>
+                        <p>健康养生</p>
+                        <p>
+                            <span>帕米尔玛咖</span>
+                            <span>昆仑雪菊</span>
+                            <span>苦水玫瑰</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果66</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="shopct shopct7">
+                    <div>
+                        <p>粮油干货</p>
+                        <p>
+                            <span>兰州百合干</span>
+                            <span>吐鲁番葡萄干</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  " style="display: none;">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果77</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+                <br>
+                <div class="shopct shopct8">
+                    <div>
+                        <p>工艺饰品</p>
+                        <p>
+                            <span>酒泉夜光杯</span>
+                            <span>艾德莱斯</span>
+                            <span>庆阳皮影</span>
+                        </p>
+                    </div>
+                    <div class=" shoptct1_right   sortRight  ">
+
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果88</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct st_ct1">
+                            <p class="st_t1">新鲜水果</p>
+                            <p class="st_t2">
+                                <i>国产水果</i>
+                                <i>|</i>
+                                <i>进口水果</i>
+                                <i>|</i>
+                                <i>奇异果/猕猴桃</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆水果</i>
+                                <i>|</i>
+                                <i>麻豆文旦</i>
+                                <i>|</i>
+                                <i>苹果</i>
+                                <i>|</i>
+                                <i>柑橘/橙</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>提子/葡萄</i>
+                                <i>|</i>
+                                <i>福建蜜柚</i>
+                                <i>|</i>
+                                <i>水果礼盒</i>
+                            </p>
+                            <p class="st_t2">
+                                <i>新疆苹果</i>
+                            </p>
+                        </div>
+                        <div class="st_ct2">
+                            <img src="img/bg3.png" alt=""></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
 
 
 
@@ -642,5 +1714,9 @@
     <script type="text/javascript" src="lib/jquery/jquery-1.12.3.min.js"></script>
     <script src="lib/Rose/1.0.0/Rose.src.js"></script>
     <script src="js/sfSearch.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+
+    </script>
 </html>

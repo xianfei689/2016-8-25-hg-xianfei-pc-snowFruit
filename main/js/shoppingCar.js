@@ -43,6 +43,22 @@ var btn;
  */
 myAnimate.car.normalChange = function() {
 
+    $("#allSort").unbind().bind("mouseover",function(){
+                    $("#content1").show()
+                    $(".content1").unbind().bind("mouseleave",function(){
+                        $(this).hide()
+                    })
+            })
+
+            $(".content1").find(".shopct").each(function(index, elem) {
+
+                     $(this).unbind().bind("click mouseover",function(){
+                                $(this).find(".shoptct1_right").fadeIn(300);
+                     }).bind("click mouseleave",function(){
+                                 $(this).find(".shoptct1_right").fadeOut(300);
+                       })
+         })
+
 
     /**
      * [description]

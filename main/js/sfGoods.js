@@ -68,6 +68,23 @@ myAnimate.goods.addContBtn = function() {
  * @return      {[type]} [description]
  */
 myAnimate.goods.normalChange = function() {
+
+
+         $("#allSort").unbind().bind("mouseover",function(){
+                    $("#content1").show()
+                    $(".content1").unbind().bind("mouseleave",function(){
+                        $(this).hide()
+                    })
+            })
+
+            $(".content1").find(".shopct").each(function(index, elem) {
+
+                     $(this).unbind().bind("click mouseover",function(){
+                                $(this).find(".shoptct1_right").fadeIn(300);
+                     }).bind("click mouseleave",function(){
+                                 $(this).find(".shoptct1_right").fadeOut(300);
+                       })
+         })
      // tabChange
            //goods_status
            $(".cont1").find(".goods_status").each(function(index,ele){
