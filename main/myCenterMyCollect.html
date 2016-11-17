@@ -119,98 +119,98 @@
                             <span >全部分类</span>
                         </li>
                         <li class="li2">
-                            <span class="sortOne"> <i class="name">南航里程</i>
-                                ( <i class="num">1110</i>
+                            <span class="sortOne"> <span class="name">南航里程</span>
+                                ( <span class="num">1110</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">旅游产品</i>
+                                <span class="name">旅游产品</span>
                                 (
-                                <i class="num">500</i>
+                                <span class="num">500</span>
+                                )
+                            </span>
+                            <span class="sortOne ">
+                                <span class="name">居家生活</span>
+                                (
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">居家生活</i>
+                                <span class="name">热门爆款</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">热门爆款</i>
+                                <span class="name">甜品饮料</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">甜品饮料</i>
+                                <span class="name">节日鲜花</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">节日鲜花</i>
+                                <span class="name">绿色产品</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">绿色产品</i>
+                                <span class="name">绿色产品</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">绿色产品</i>
+                                <span class="name">旅游产品</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">8</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">旅游产品</i>
+                                <span class="name">个护化妆</span>
                                 (
-                                <i class="num">8</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">个护化妆</i>
+                                <span class="name">清洁用品</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">清洁用品</i>
+                                <span class="name">医药保健</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">医药保健</i>
+                                <span class="name">服装鞋包</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">服装鞋包</i>
+                                <span class="name">男士用品</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">男士用品</i>
+                                <span class="name">手机通讯</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">手机通讯</i>
+                                <span class="name">时装达人</span>
                                 (
-                                <i class="num">88</i>
-                                )
-                            </span>
-                            <span class="sortOne">
-                                <i class="name">时装达人</i>
-                                (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                         </li>
@@ -221,27 +221,27 @@
                         </li>
                         <li class="li2">
                             <span class="sortOne">
-                                <i class="name">南航里程</i>
+                                <span class="name">南航里程</span>
                                 (
-                                <i class="num">10</i>
+                                <span class="num">10</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">旅游产品</i>
+                                <span class="name">旅游产品</span>
                                 (
-                                <i class="num">5</i>
+                                <span class="num">5</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">居家生活</i>
+                                <span class="name">居家生活</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                             <span class="sortOne">
-                                <i class="name">热门爆款</i>
+                                <span class="name">热门爆款</span>
                                 (
-                                <i class="num">88</i>
+                                <span class="num">88</span>
                                 )
                             </span>
                         </li>
@@ -522,7 +522,10 @@
 
                })
 
-
+            $(".myCollect").find(".sortOne").unbind().bind("click",function(){
+                $(this).parent().find(".sortOne").removeClass("active")
+                 $(this).addClass("active")
+            })
 
     </script>
 </html>

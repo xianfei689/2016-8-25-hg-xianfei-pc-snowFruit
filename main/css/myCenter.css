@@ -1267,6 +1267,11 @@ right: 9px;
     display: inline-block;
     width: 101px;
     cursor: pointer;
+    font-size: 12px;
+    color: #454545;
+}
+.myCollect  .active{
+        color: #3c6;
 }
 
 .myCollect  .p_goods{
