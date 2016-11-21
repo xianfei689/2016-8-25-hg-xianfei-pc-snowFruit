@@ -218,6 +218,7 @@ li
 }
 .cont4  .sf-mid-cont
 {
+    box-sizing: border-box;
     line-height: 44px;
 
     height: 44px;

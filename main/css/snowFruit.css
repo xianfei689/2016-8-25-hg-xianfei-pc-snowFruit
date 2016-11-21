@@ -570,3 +570,216 @@
 {
     display: none;
 }
+.storeHomepage{
+    overflow: hidden;
+}
+.storeHomepage  .storeDiv_left{
+    width: 220px;
+        float: left;
+}
+.storeDiv_left .storeName{
+    width: 220px;
+    height: 156px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.storeDiv_left .storeBanner1{
+    width: 220px;
+    height: 42px;
+
+    background-color: #F0F0F0;
+
+
+}
+.storeDiv_left .storeBanner1 span{
+    width: 75px;
+        color: #454545;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    border-left: 4px solid #33CC66;
+    margin-top: 12px;
+}
+
+
+ .arrow{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-left: 7px solid;
+    border-bottom: 7px solid transparent;
+        position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+#brandCont{
+    box-sizing: border-box;
+    padding-left: 34px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 29px;
+    color: #757575;
+    font-size: 12px;
+
+}
+#priceCont{
+     box-sizing: border-box;
+    padding-left: 34px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 29px;
+    color: #757575;
+    font-size: 12px;
+}
+.storeDiv_left .active{
+    color: #33cc66;
+     border-left-color: #33cc66;
+}
+#brandCont  li{
+    display: block;
+    cursor: pointer;
+}
+#priceCont li{
+    display: block;
+    cursor: pointer;
+}
+.storeDiv_left   .storeDiv{
+        color: #454545;
+    font-size: 14px;
+    background-color: #F0F0F0;
+    width: 220px;
+    height: 42px;
+    cursor: pointer;
+    text-indent: 30px;
+    line-height: 42px;
+    margin-top: 2px;
+
+}
+.storeDiv  img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.storeDiv1   input{
+    border: 1px solid #dedede;
+    width: 80px;
+    height: 26px;
+    display: inline-block;
+}
+.storeDiv1   .store_bot2{
+    border: 1px solid #dedede;
+    font-size: 14px;
+    color: #454545;
+    display: inline-block;
+    width: 40px;
+    height: 26px;
+    line-height: 26px;
+    background-color: : #F8F8F8;
+    text-align: center;
+    cursor: pointer;
+}
+.storeHomepage  .storeDiv_right{
+        width: 960px;
+        height: 200px;
+        margin-left: 20px;
+
+}
+
+.storeDiv_right   .ct1_head{
+     width: 960px;
+     overflow: hidden;
+     margin-bottom: 20px;
+}
+
+
+.ct1_head li {
+    line-height: 34px;
+    display: inline-block;
+    width: 105px;
+    height: 34px;
+    margin-left: -3px;
+    text-align: center;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.ct1_head .upimg {
+    width: 8px;
+    height: 11px;
+    background-image: url(../img/search/low.png);
+    position: relative;
+    display: inline-block;
+    left: 7px;
+}
+.ct1_head  .sortLast{
+    width: 637px;
+    border-bottom: 1px dashed #E8E8E8;
+    display: inline-block;
+    float: right;
+    margin-top: 31px;
+    margin-right: 7px;
+}
+
+
+.storeDiv_right .store_main{
+    width: 960px;
+}
+
+.store_main li {
+    width: 210px;
+    height: 330px;
+    text-align: center;
+    margin-right: 32px;
+}
+.store_main .gimg {
+    overflow: hidden;
+    width: 210px;
+    height: 190px;
+}
+.store_main .f1title {
+    width: 182px;
+    margin-top: 23px;
+    margin-bottom: 14px;
+}
+.store_main   .ct2_ul1 li:last-child{
+    margin-right: 0;
+}
+.btm_bar {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: right;
+    overflow: auto;
+}
+
+.btm_bar .c3_change {
+    line-height: 28px;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+}
+
+.btm_bar a {
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+}
+.btm_bar .c3_num {
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+.btm_bar .active {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #3c6;
+}
+.ct1_head  .active {
+    color: #3c6;
+}
+.ct1_head .show {
+    background-image: url(../img/search/high.png);
+}
